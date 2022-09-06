@@ -1,0 +1,180 @@
+﻿@page
+@model GalaPage_2022.Pages.Products.HotelModel
+@{
+    ViewData["Title"] = "Hotel";
+}
+<div class="container margin60">
+    <!-- Sistema Restaurante -->
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="main-title text-center">Hotel Gala</h3>
+            <h4 class="main-subtitle">Sistema Administrador de Hoteles</h4>
+            <p class="lead">Administra tus habitaciones, configura las tarifas, genera los reportes de ingresos que necesitas.</p>
+            <p class="lead">Aprovecha los procesos de auditoria, haz reservaciones, genera tus facturas tanto de clientes como la global de día, de forma rápida y sencilla</p>
+            <div class="d-flex justify-content-center my-5">
+                <a class="btn btn-primary btn-lg btn-block shadow w-50" href="/Contact/Contact">Cotizar</a>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <img class="w-75" src="~/images/PantallaHotel.png" class="rounded w-100" alt="Imagen Software Hotel"/>
+        </div>
+    </div>
+</div>
+<!-- Información del Hotel -->
+<div class="fondo-cards p-5">
+    <div class="container">
+        <div class="row my-5 gap-3">
+            <div class="col-md-4">
+                <div class="card text-center shadow p-3 card-blue">
+                    <div class="text-center">
+                        <img src="/images/hotel.png" class="card-img-top w-25" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Auditoria Nocturna</h5>
+                        <p class="card-text">Agrega una noche de forma automática a las habitaciones ocupadas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center shadow p-3">
+                    <div class="text-center">
+                        <img src="/images/reserva.png" class="card-img-top w-25" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Reservaciones</h5>
+                        <p class="card-text">Registra tus reservaciones, cancela un tiempo definido antes sin cargos, garantiza la reservación</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center shadow p-3 card-blue">
+                    <div class="text-center">
+                        <img src="/images/factura.png" class="card-img-top w-25" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Facturación SAT CFDi 4.0</h5>
+                        <p class="card-text">Genera tus facturas con las nuevas caracteristicas del SAT, CFDi 4.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--  -->
+<div class="bg-black opacity-75 text-white py-5">
+    <div class="container">
+        <h3 class="display-6 text-center">Agiliza la liberación de Habitaciones</h3>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3 class="text-center">Aplicación Ama de Llaves</h3>
+                <p>Libera las habitaciones en el momento de visitarlas, durante la revisión puedes acceder a la aplicación para 
+                    hacer la liberación de la habitación.
+                </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-muted bg-black opacity-75">Actualización inmediata</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">Debe estar conectado a la misma Red que la Servidora</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">Disponible solo para Android</li>
+                </ul>
+            </div>
+            <div class="col-md-4 m-auto">
+                <img class="img-thumbnail rounded" src="/images/ControlMermas2.png"/>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-success btn-lg">
+                <i class="fa fa-whatsapp fs-2 me-3"></i>
+                Te podemos Asesorar
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container py-5">
+    <div class="row margin60">
+        <h2 class="text-center display-4 mb-5">Accesible Desde Cualquier Parte</h2>
+        <div class="col-md-4">
+            <img class="img-thumbnail rounded" src="/images/SistemaEnLaNube.png"/>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-6 my-5">
+            <h3 class="text-center">Conectate Desde Casa</h3>
+            <p>Puedes acceder a tu Hotel desde cualquier ubicación, para configurar Tarifas, Revisar Reportes, y dar seguimiento
+                a todos los pendientes y procesos que necesites en el sistema
+            </p>
+            <p></p>
+        </div>
+    </div>
+</div>
+<div class="bg-gray25 py-5">
+    <div class="container my-5">
+        <h3 class="text-center display-6">Da de Alta las Tarifas que Necesites</h3>
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <h4 class="text-center">Configura las Tarifas que te hagan falta para tus habitaciones</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-muted bg-transparent">Diferentes Tarifas para las habitaciones</li>
+                    <li class="list-group-item text-muted bg-transparent">Relaciona las tarifas a una Sección</li>
+                    <li class="list-group-item text-muted bg-transparent">ASigna tarifas a diferentes empresas</li>
+                </ul>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4 my-auto">
+                <img class="img-thumbnail rounded" src="~/images/Cuarto-Hotel.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-5">
+    <h3 class="text-center display-6">Otros Procesos y Configuraciones</h3>
+    <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Reservaciones</h4>
+                <div class="card-body">
+                    <p class="lead">Realiza las reservaciones segun la disponibilidad de tus habitaciones.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Auditoria</h4>
+                <div class="card-body">
+                    <p class="lead">Agrega una noche a las habitaciones ocupadas de forma automática.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Reportes</h4>
+                <div class="card-body">
+                    <p class="lead">Revisa an cualquier momento el estatus de las habitaciones</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Más Procesos</h4>
+                <div class="card-body">
+                    <p class="lead">Cancela reservaciones no confirmadas, o no garantizadas, para liberar tus habitaciones.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Sistema en la Nube</h4>
+                <div class="card-body">
+                    <p class="lead">Conecta a tu restaurante desde cualquier parte, revisa reportes, ajusta precios, da de alta nuevos platillos sin estar en el restaurante</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
+            <div class="card shadow">
+                <h4 class="card-header bg-body text-light">Soporte y Capacitación</h4>
+                <div class="card-body">
+                    <p class="lead">Te acompañamos todos los día del año, brindandote tips y ayuda sobre el sistema.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

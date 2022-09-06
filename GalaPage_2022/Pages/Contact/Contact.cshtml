@@ -1,0 +1,57 @@
+﻿@page
+@model GalaPage_2022.Pages.Contact.ContactModel
+@{
+    ViewData["Title"] = "Contactanos";
+}
+<div>
+    <div class="container">
+        <h3 class="text-center display-5 my-5">Formulario de Contacto</h3>
+        <div class="row my-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="text-center">Envianos tus Datos para Contactarte</h5>
+                    </div>
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="form-floating mb-3">
+                                <input type="text" asp-for="Contacto.Nombre" class="form-control" id="nombreProspecto" placeholder="Maria Sanchez" required>
+                                <label for="nombreProspecto" class="form-label">Nombre</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" asp-for="Contacto.Correo" class="form-control" id="correoProspecto" placeholder="correo@gmail.com" required>
+                                <label for="correoProspecto" class="form-label">Correo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="tel" asp-for="Contacto.Telefono" class="form-control" id="telefonoProspecto" placeholder="555-666 66 66" required>
+                                <label for="telefonoProspecto" class="form-label">Teléfono</label>
+                            </div>
+                            <div class="row">
+                                <div class="form-floating col-md-6 mb-3">
+                                    <input type="text" asp-for="Contacto.Ciudad" class="form-control" id="ciudadProspecto" placeholder="Tijuana">
+                                    <label for="ciudadProspecto" class="form-label">Ciudad</label>
+                                </div>
+                                <div class="form-floating col-md-6 mb-3">
+                                    <input type="text" asp-for="Contacto.Estado" class="form-control" id="estadoProspecto" placeholder="Baja Califonria">
+                                    <label for="estadoProspecto" class="form-label">Estado</label>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea asp-for="Contacto.Mensaje" class="form-control" id="textareaMessage"></textarea>
+                                <label for="textareaMessage" class="form-label">Cuentanos sobre tu negocio</label>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>

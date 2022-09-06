@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalaPage_2022", "GalaPage_2022\GalaPage_2022.csproj", "{DF41AD4D-D670-4097-B8A5-E44A3248B3E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF41AD4D-D670-4097-B8A5-E44A3248B3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF41AD4D-D670-4097-B8A5-E44A3248B3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF41AD4D-D670-4097-B8A5-E44A3248B3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF41AD4D-D670-4097-B8A5-E44A3248B3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {503F3B55-A434-4325-9D7F-6D1E7E1F152A}
+	EndGlobalSection
+EndGlobal

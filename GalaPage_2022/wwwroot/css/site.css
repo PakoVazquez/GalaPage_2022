@@ -1,0 +1,136 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    padding-top: 80px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.letra-domine{
+    font-family: 'Domine', serif;
+}
+.main-title {
+    font-family: 'Domine', serif;
+    font-size: 4rem;
+}
+.main-subtitle {
+    font-family: 'Domine', serif;
+    font-size: 2.5rem;
+}
+.bg-gray25{
+    background-color: #d5d8dc;
+}
+.botones-informacion{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+@media (min-width:768px){
+    .botones-informacion {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 1rem;
+    }
+}
+.bg-mapa {
+    background: linear-gradient(to top, rgba( 246, 221, 204, 0.5), rgba(229, 152, 102, 0.5)), url(/images/mapa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.margin60{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.margin100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.padding60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.padding100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.precios-card{
+    border: none;
+    border-radius: 8px;
+    transition: all ease 200ms;
+    padding: 8px
+}
+    .precios-card:hover {
+        background-color: rgba(210,210,210,0.1);
+        transform: scale(1.01);
+    }
+.precios-card-blue {
+    box-shadow: 0 -5px 1px blue;
+    transition: all ease 200ms;
+}
+    .precios-card-blue:hover {
+        box-shadow: 0 0px 4px blue;
+    }
+.precios-card-orange {
+    box-shadow: 0 -5px 1px orange;
+    transition: all ease 200ms;
+}
+    .precios-card-orange:hover {
+        box-shadow: 0 0px 4px orange;
+    }
+.precios-card-green {
+    box-shadow: 0 -5px 1px green;
+    transition: all ease 200ms;
+}
+    .precios-card-green:hover {
+        box-shadow: 0 0px 4px green;
+    }
+.precios-card-purple {
+    box-shadow: 0 -5px 1px purple;
+    transition: all ease 200ms;
+}
+    .precios-card-purple:hover {
+        box-shadow: 0 0px 4px purple;
+    }
+.precios-card-obs {
+    font-size: 12px;
+}
+
+.fondo-cards{
+    background-image: url(/images/v748-toon-107.jpg);
+    background-size: cover;
+}
+
+.card-blue{
+    background-color: #d6eaf888;
+}
+.costo-planes{
+    background-color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+    .img-container > img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    .img-container > img {
+        max-width: 100%;
+    }
+}
