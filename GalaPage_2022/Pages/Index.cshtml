@@ -1,32 +1,51 @@
 ﻿@page
 @model IndexModel
 @{
+    ViewData["Title"] = "Inicio";
 }
 <div>
-    <div class="container">
-        <div class="row mb-5"> 
-            <div class="col-md-6">
-                <h3 class="main-title mt-5 text-center">Amigo Restaurante</h3>
-                <h3 class="main-subtitle">por Gala Sistemas</h3>
-                <h3 class="mt-5">Sistema de Administración Completo</h3>
-                <p>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</p>
-                <div class="row mt-5">
-                    <div class="col-6">
-                        <a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Descarga 1 Mes Gratis</a>
-                    </div>
-                    <div class="col-6 d-grid gap-3">
-                        <a class="btn btn-info btn-block text-white d-flex justify-content-center align-items-center shadow" asp-area="" asp-page="/Services">Precios</a>
+    <section class="container">
+        <h3 class="main-title text-center my-5">Integra Mercado Pago a tu sistema Amigo Restaurante</h3>
+        <div class="info-mercado-pago">
+            <div class="imagen-pointblue">
+                <img src="~/images/mercadoPago.png" alt="Point Blue" />
+            </div>
+            <div speach-mercadopago>
+                <p>
+                    Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma 
+                    <a href="https://www.mercadopago.com.mx/" target="_blank"> Mercado Pago</a>,
+                    gracias a la integración de este medio de pago en nuestra comandera.
+                </p>
+                <a class="btn btn-outline-primary shadow d-inline" asp-area="" asp-page="/Products/MercadoPago">SABER MÁS</a>
+            </div>
+        </div>
+    </section>
+    <div class="bg-gray25">
+        <div class="container">
+            <div class="row mb-5"> 
+                <div class="col-md-6">
+                    <h3 class="main-title mt-5 text-center">Amigo Restaurante</h3>
+                    <h3 class="main-subtitle">por Gala Sistemas S.A. de C.V.</h3>
+                    <h3 class="mt-5">Sistema de Administración Completo</h3>
+                    <p>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</p>
+                    <div class="row mt-5">
+                        <div class="col-6">
+                            @*<a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Obten 1 Mes Gratis</a>*@
+                        </div>
+                        <div class="col-6 d-grid gap-3">
+                            <a class="btn btn-warning btn-block text-dark d-flex justify-content-center align-items-center shadow" asp-area="" asp-page="/Services">Compra Aquí</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <div class="img-container w-75 py-5">
-                    <img src="/images//Imagen01.png" alt="Imagen Principal" />
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="img-container w-75 py-5">
+                        <img src="/images//Imagen01.png" alt="Imagen Principal" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-gray25 padding100">
+    <div class="padding60">
         <div class="container">
             <h2 class="letra-domine text-capitalize text-center">Software diseñado para resolver problemas reales de la 
                 industria restaurantera.</h2>
@@ -58,20 +77,21 @@
                     <p>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor 
                         servicio a tus clientes. Genera la factura global con pocos clics.
                         Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</p>
-                    <a class="btn btn-outline-primary shadow" asp-area="" asp-page="">SABER MÁS</a>
+                    <a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Products/Billing">SABER MÁS</a>
                 </div>
             </div>
             <div class="botones-informacion">
-                <button class="btn btn-lg btn-success shadow">
+                <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
                     <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
                     <span class="mx-3">WhatsApp</span>
-                </button>
+                </a>
                 <a class="btn btn-lg btn-primary shadow" asp-area="" asp-page="">Solicitar una Demostración</a>
-                <a class="btn btn-lg btn-outline-primary shadow" asp-area="" asp-page="">Precios</a>
+                <a class="btn btn-lg btn-outline-primary shadow" asp-area="" asp-page="/Services">Precios</a>
             </div>
         </div>
     </div>
-    <div class="container margin100">
+    <div class="bg-gray25 padding60">
+        <div class="container">
         <h2 class="letra-domine text-capitalize text-center">e-Commerce de tu Restaurante, 
             ligado con Amigo Restaurante</h2>
         <div class="row my-5">
@@ -92,11 +112,12 @@
             </div>
         </div>
         <div class="d-grid gap-3 d-flex justify-content-center my-5">
-            <button class="btn btn-lg btn-success shadow">
+            <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
                 <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
-                <span class="mx-3">Contáctanos</span>
-            </button>
-            <a class="btn btn-lg btn-outline-primary shadow" asp-area="" asp-page="">Información</a>
+                <span class="mx-3">WhatsApp</span>
+            </a>
+            <a class="btn btn-lg btn-outline-primary shadow" asp-area="" asp-page="/Products/SalesWebPage">Información</a>
         </div>
+    </div>  
     </div>
 </div>

@@ -15,7 +15,7 @@
             </p>
             <div class="row my-5">
                 <div class="col-6">
-                    <a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Descarga 1 Mes Gratis</a>
+                    @*<a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Descarga 1 Mes Gratis</a>*@
                 </div>
                 <div class="col-6 d-grid gap-3">
                     <a class="btn btn-warning btn-block shadow" asp-area="" asp-page="/Contact/Contact">Demostración</a>
@@ -126,10 +126,10 @@
             </div>
         </div>
         <div class="text-center">
-            <button class="btn btn-success btn-lg">
-                <i class="fa fa-whatsapp fs-2 me-3"></i>
-                Te podemos Asesorar
-            </button>
+            <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
+                <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
+                <span class="mx-3">Te Podemos Asesorar</span>
+            </a>
         </div>
     </div>
 </div>
@@ -173,7 +173,7 @@
         </div>
     </div>
 </div>
-<div class="container py-5">
+<div class="container padding60">
     <h3 class="text-center display-6 mb-5">Otros Procesos y Configuraciones</h3>
     <div class="row mt-2">
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">

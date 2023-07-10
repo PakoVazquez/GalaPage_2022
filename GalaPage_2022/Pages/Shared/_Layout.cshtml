@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark box-shadow">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary box-shadow">
             <div class="container-fluid mx-5">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
                     <img style="width: 42px;" src="~/images/LogoGala.png" />
@@ -39,6 +39,7 @@
                                 <li><a class="dropdown-item" asp-area="" asp-page="/Products/Hotel">Hotel</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-page="/Products/Billing">Facturación</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-page="/Products/SalesWebPage">Restaurante en Línea</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-page="/Products/MercadoPago">Sistema POS con Mercado Pago</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-page="/Products/OtrosProductos">Otros Productos</a></li>
                             </ul>
                         </li>
@@ -46,7 +47,7 @@
                             <a class="nav-link" asp-area="" asp-page="/Services">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/AboutUs">Acerca de</a>
+                            <a class="nav-link" asp-area="" asp-page="/AboutUs">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Contact/Contact">Contacto</a>
@@ -62,9 +63,16 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - GalaPage_2022 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <footer class="border-top footer bg-dark text-muted">
+        <div class="container text-center text-wrap">
+            <p>
+                &copy; 2023 - Gala Sistemas S.A. de C.V. Tijuana BC México 
+            </p>
+            <p>
+                <a class="text-decoration-none text-muted" asp-area="" asp-page="/Privacy">
+                    Política de Privacidad
+                </a>
+            </p>
         </div>
     </footer>
 

@@ -1,0 +1,55 @@
+﻿@page
+@model GalaPage_2022.Pages.Products.MercadoPagoModel
+@{
+    ViewData["Title"] = "Sistema POS con Mercado Pago";
+}
+<div class="pb-5">
+    <h2 class="text-center display-5 p-5">Intega Mercado Pago al Sistema POS Amigo Restaurante</h2>
+
+    <div class="container info-mercado-pago">
+        <div class="imagen-pointblue">
+            <img src="~/images/mercadoPago.png" alt="Point Blue" />
+        </div>
+        <div class="speach-mercadopago">
+            <p>
+                Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma Mercado Pago,
+                gracias a la integración de este medio de pago en nuestra comandera. Esto te permitirá captar más ventas,
+                agilizar el servicio y disponer del dinero de forma inmediata.
+                Para obtener más información, haz clic en el siguiente enlace:
+                <a href="https://www.mercadopago.com.mx/ayuda/24849" target="_blank">Políticas de Mercado Pago.</a>
+            </p>
+            <p>
+                Es importante mencionar que la integración de pagos con tarjetas actualmente solo está disponible con el dispositivo
+                <a href="https://www.mercadopago.com.mx/point/invite?device=54&code=POINT_ORG" target="_blank">Point Blue de Mercado Pago</a>,
+                el cual puedes adquirir poniéndote en contacto con nosotros.
+            </p>
+            @*<p>
+                Además, si adquieres la impresora manual, podrás imprimir la cuenta directamente en la mesa del cliente y
+                ofrecer un código QR para la facturación en línea, incluido en el ticket.
+                Si deseas conocer más detalles sobre este servicio, haz clic en el siguiente enlace:
+                <a asp-area="" asp-page="/Products/Billing">Facturación en Línea</a>
+            </p>
+            <p>
+                En resumen, con esta integración de pagos y la adquisición de la impresora manual, podrás agilizar el servicio y
+                ofrecer mayor seguridad y confianza a tus clientes, brindando un servicio fiable y rápido.
+            </p>*@
+        </div>
+        
+    </div>
+</div>
+<div>
+    <h2 class="text-center display-6 p-5"></h2>
+</div>
+<div class="bg-gray25 pb-5" >
+    <h2 class="text-center display-6 p-5">Acepta los medios de pagos favoritos de tus clientes</h2>
+    <div class="medios-pago">
+        <ul>
+            <li><img src="~/images/mp-visa.png" /></li>
+            <li><img src="~/images/mp-master.png" /></li>
+            <li><img src="~/images/mp-amex.png" /></li>
+            <li><img src="~/images/mp-paypal.png" /></li>
+            <li><img src="~/images/mp-carnet.png" /></li>
+            <li><img src="~/images/mp-banks.png" /></li>
+        </ul>
+    </div>
+</div>
