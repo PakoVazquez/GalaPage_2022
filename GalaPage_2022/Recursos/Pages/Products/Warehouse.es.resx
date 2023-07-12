@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="attrOrders01" xml:space="preserve">
+    <value>Recibe los Pedidos de las Sucursales</value>
+  </data>
+  <data name="attrOrders02" xml:space="preserve">
+    <value>Antes de procesar los Pedidos, puedes ajustarlos segén tus necesidades</value>
+  </data>
+  <data name="attrOrders03" xml:space="preserve">
+    <value>Recibe traspasos de mercancia desde las sucursales</value>
+  </data>
+  <data name="attrOrders04" xml:space="preserve">
+    <value>Identifica quien te envia la devolución de los productos</value>
+  </data>
+  <data name="attrOrders05" xml:space="preserve">
+    <value>Revisa las existencias de las Sucursales desde el Almacén</value>
+  </data>
+  <data name="attrRawMaterial01" xml:space="preserve">
+    <value>Registra los almacenes que necesites: Almacen de Mermas, Almacen de Cocina</value>
+  </data>
+  <data name="attrRawMaterial02" xml:space="preserve">
+    <value>Haz los traspasos de Materias Primas a los diferentes almacenes, segun corresponda.</value>
+  </data>
+  <data name="attrRawMaterial03" xml:space="preserve">
+    <value>Para el Almacén de Cocina, genera las Producciones que te reporten, para convertir las recetas en productos terminados</value>
+  </data>
+  <data name="attrRawMaterial04" xml:space="preserve">
+    <value>Lleva control de productos terminados que puedes enviar a tus sucursales.</value>
+  </data>
+  <data name="attrRawMaterial05" xml:space="preserve">
+    <value>Monitorea el reporte de entradas en el almacén de Mermas.</value>
+  </data>
+  <data name="attrWarehouseForecasts01" xml:space="preserve">
+    <value>Pronósticos de Compras</value>
+  </data>
+  <data name="attrWarehouseForecasts02" xml:space="preserve">
+    <value>Pronósticos de Ventas</value>
+  </data>
+  <data name="attrWarehouseInventories01" xml:space="preserve">
+    <value>Inventarios Diarios</value>
+  </data>
+  <data name="attrWarehouseInventories02" xml:space="preserve">
+    <value>Inventarios Semanales</value>
+  </data>
+  <data name="attrWarehouseInventories03" xml:space="preserve">
+    <value>Inventarios Mensuales</value>
+  </data>
+  <data name="attrWarehouseInventories04" xml:space="preserve">
+    <value>Envio de resultados por eMail</value>
+  </data>
+  <data name="attrWarehouseInventories05" xml:space="preserve">
+    <value>Permisos diferentes, para configurar los roles de usuarios</value>
+  </data>
+  <data name="attrWarehouseInventories06" xml:space="preserve">
+    <value>Inventarios para cada Sub Almacén</value>
+  </data>
+  <data name="attrWarehousePermissions01" xml:space="preserve">
+    <value>Asigna solo los permisos que necesite el usuario</value>
+  </data>
+  <data name="attrWarehousePermissions02" xml:space="preserve">
+    <value>Para cada Usuario necesitas asignar los permisos que necesita</value>
+  </data>
+  <data name="attrWarehousePermissions03" xml:space="preserve">
+    <value>Todo el sistema esta bajo permisos.</value>
+  </data>
+  <data name="attrWarehouseProcess01" xml:space="preserve">
+    <value>Producción</value>
+  </data>
+  <data name="attrWarehouseProcess02" xml:space="preserve">
+    <value>Órdenes de Compra</value>
+  </data>
+  <data name="attrWarehouseProcess03" xml:space="preserve">
+    <value>Recetas para los Productos Procesados</value>
+  </data>
+  <data name="attrWarehouseProcess04" xml:space="preserve">
+    <value>Dos tipos de Costeo</value>
+  </data>
+  <data name="attrWarehouseProcess05" xml:space="preserve">
+    <value>Genera Carta Porte del SAT</value>
+  </data>
+  <data name="btnAdviseYou" xml:space="preserve">
+    <value>Te Podemos Asesorar</value>
+  </data>
+  <data name="btnContact" xml:space="preserve">
+    <value>Solicitar más Información</value>
+  </data>
+  <data name="Header11" xml:space="preserve">
+    <value>Sistema Administrador de Centro de Distribución</value>
+  </data>
+  <data name="Header20" xml:space="preserve">
+    <value>Usa Mejor Tus Materias Primas</value>
+  </data>
+  <data name="Header21" xml:space="preserve">
+    <value>Aprovecha los Diferentes Almacenes que puedes tener</value>
+  </data>
+  <data name="Header30" xml:space="preserve">
+    <value>Tu Almacén en la Nube</value>
+  </data>
+  <data name="Header31" xml:space="preserve">
+    <value>Saca provecho de la Tecnología</value>
+  </data>
+  <data name="Header40" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="Header41" xml:space="preserve">
+    <value>Recibe los pedidos desde las sucursales</value>
+  </data>
+  <data name="HeaderWarehouseCard01" xml:space="preserve">
+    <value>Pronósticos</value>
+  </data>
+  <data name="HeaderWarehouseCard02" xml:space="preserve">
+    <value>Permisos</value>
+  </data>
+  <data name="HeaderWarehouseCard03" xml:space="preserve">
+    <value>Inventarios</value>
+  </data>
+  <data name="HeaderWarehouseCard04" xml:space="preserve">
+    <value>Procesos</value>
+  </data>
+  <data name="priceWarehouse" xml:space="preserve">
+    <value>Renta mensual por solo:</value>
+  </data>
+  <data name="txtCloudWaregouse" xml:space="preserve">
+    <value>Accede a tu almacén desde cualquier parte, para que configures lo que necesites y saques la información que desees en cualquier momento</value>
+  </data>
+  <data name="txtOrders" xml:space="preserve">
+    <value>Puedes recibir tanto Pedidos, como Traspasos, Devoluciones desde las sucursales, para controlar cada movimiento segun lo requieras.</value>
+  </data>
+  <data name="txtRawMaterial01" xml:space="preserve">
+    <value>Con Amigo Almacén puedes llevar un control de Mermas y/o de Producción que te permita ahorrar en Materias Primas, reduciendo un posible 10% o 12% de merma a un 1.5 o 2% como estandar permitido.</value>
+  </data>
+  <data name="txtRawMaterial02" xml:space="preserve">
+    <value>Puedes seguir estas recomendaciones para lograr los objetivos</value>
+  </data>
+  <data name="txtWarehouse01" xml:space="preserve">
+    <value>Con Amigo Almacén, puedes llevar el control de tu Centro de Distribución, Inventarios, Producción, Envió de Mercancía, Pedidos y Rutas.</value>
+  </data>
+  <data name="txtWarehouse02" xml:space="preserve">
+    <value>Conecta y Realiza diferentes tareas necesarias que simplifican la labor entre Almacén y las Sucursales.</value>
+  </data>
+  <data name="txtWarehouseCard01" xml:space="preserve">
+    <value>Herramientas Estadísticas para Almacén</value>
+  </data>
+  <data name="txtWarehouseCard02" xml:space="preserve">
+    <value>El Sistema Amigo Almacén se se gestiona bajo permisos para cada usuario.</value>
+  </data>
+  <data name="txtWarehouseCard03" xml:space="preserve">
+    <value>Control de Inventarios dinámico y configurable.</value>
+  </data>
+  <data name="txtWarehouseCard04" xml:space="preserve">
+    <value>Diferentes procesos para mejorar el control de los recursos</value>
+  </data>
+</root>

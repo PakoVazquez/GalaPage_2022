@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Products.RestaurantModel
 @{
     ViewData["Title"] = "Restaurante";
@@ -8,17 +9,14 @@
     <div class="row">
         <div class="col-md-8">
             <h3 class="main-title text-center">Amigo Restaurante</h3>
-            <h4 class="main-subtitle">Sistema Gestor de Restaurantes</h4>
-            <p class="lead">Con Amigo Restaurante no solo llevas la venta de tu negocio, también controlas otros aspectos como
-                Costos, Inventarios, Producción, Pronósticos de Compras y Ventas, Ventas por la Página Web, Facturación tradicional 
-                y en línea y más...
-            </p>
+            <h4 class="main-subtitle">@localizer["Header11"]</h4>
+            <p class="lead">@localizer["txtRest01"]</p>
             <div class="row my-5">
                 <div class="col-6">
                     @*<a class="btn btn-outline-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Descarga 1 Mes Gratis</a>*@
                 </div>
                 <div class="col-6 d-grid gap-3">
-                    <a class="btn btn-warning btn-block shadow" asp-area="" asp-page="/Contact/Contact">Demostración</a>
+                    <a class="btn btn-warning btn-block shadow" asp-area="" asp-page="/Contact/Contact">@localizer["btnDemo"]</a>
                 </div>
             </div>
         </div>
@@ -33,17 +31,17 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-primary bg-opacity-50">
-                    Inventarios
+                    @localizer["HeaderCardInventories"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Control de Inventarios dinámico y configurable.</p>
+                    <p class="fw-bold fs-5">@localizer["TextCardInventories"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Inventarios Diarios</li>
-                        <li class="list-group-item text-muted">Inventarios Semanales</li>
-                        <li class="list-group-item text-muted">Inventarios Mensuales</li>
-                        <li class="list-group-item text-muted">Inventarios Ciegos</li>
-                        <li class="list-group-item text-muted">Envio de resultados por eMail</li>
-                        <li class="list-group-item text-muted">Permisos diferentes, para configurar los roles de usuarios</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories01"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories02"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories03"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories04"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories05"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardInventories06"]</li>
                     </ul>
                 </div>
             </div>
@@ -51,17 +49,17 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-success bg-opacity-50">
-                    Platillos
+                    @localizer["HeaderCardDishes"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Controla Inventarios desde los Platillos y sus Recetas.</p>
+                    <p class="fw-bold fs-5">@localizer["TextCardDishes"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Precios por Sección</li>
-                        <li class="list-group-item text-muted">Proceso para calcular nuevos precios</li>
-                        <li class="list-group-item text-muted">Combos o Platillos</li>
-                        <li class="list-group-item text-muted">Imprime en diferentes impresoras (Barra, Cocina)</li>
-                        <li class="list-group-item text-muted">Muestra las ordenes por Pantalla en Cocina</li>
-                        <li class="list-group-item text-muted">Configura los platillos que vas a vender por eCommerce</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes01"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes02"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes03"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes04"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes05"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardDishes06"]</li>
                     </ul>
                 </div>
             </div>
@@ -69,15 +67,15 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-primary bg-opacity-50">
-                    Pronósticos
+                    @localizer["HeaderCardForecasts"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Ayudate de las herramientas estadísticas de tu venta</p>
+                    <p class="fw-bold fs-5">@localizer["TextCardForecasts"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Plan de Producción</li>
-                        <li class="list-group-item text-muted">Pronósticos de Compras</li>
-                        <li class="list-group-item text-muted">Pronósticos de Ventas</li>
-                        <li class="list-group-item text-muted">Días Especiales (festivos), para control de venta</li>
+                        <li class="list-group-item text-muted">@localizer["CardForecasts01"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardForecasts02"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardForecasts03"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardForecasts04"]</li>
                     </ul>
                 </div>
             </div>
@@ -85,16 +83,16 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-success bg-opacity-50">
-                    Permisos
+                    @localizer["HeaderCardPermissions"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Todo el Sistema AmigoRestaurante se encuentra bajo permisos</p>
+                    <p class="fw-bold fs-5">@localizer["TextCardPermissions"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Asigna solo los permisos que necesite el usuario</li>
-                        <li class="list-group-item text-muted">Crea modelos, para no repetir permisos</li>
-                        <li class="list-group-item text-muted">Asigna Permsios a los Modelos, para que puedan usar el sistema</li>
-                        <li class="list-group-item text-muted">Todo el sistema esta bajo permisos.</li>
-                        <li class="list-group-item text-muted">La mayor parte de Pantallas, Botones, Reportes, estan bajo permisos.</li>
+                        <li class="list-group-item text-muted">@localizer["CardPermissions01"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardPermissions02"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardPermissions03"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardPermissions04"]</li>
+                        <li class="list-group-item text-muted">@localizer["CardPermissions05"]</li>
                     </ul>
                 </div>
             </div>
@@ -104,21 +102,19 @@
     <!--  -->
 <div class="bg-black opacity-75 text-white py-5">
     <div class="container">
-        <h3 class="display-6 text-center">Usa Mejor Tus Materias Primas</h3>
+        <h3 class="display-6 text-center">@localizer["Header20"]</h3>
         <div class="row my-5">
             <div class="col-md-8 mb-3">
-                <h3 class="text-center">Control de Mermas</h3>
-                <p>Con Amigo Restaurante puedes llevar un control de Mermas que te permita ahorrar en Materias Primas, reduciendo
-                    un posible 10% o 12% de merma a un 1.5 o 2% como estandar permitido.
-                </p>
-                <p>Aplica los siguientes procesos y el resultado te sorprenderá</p>
+                <h3 class="text-center">@localizer["Header21"]</h3>
+                <p>@localizer["txtWaste01"]</p>
+                <p>@localizer["txtWaste02"]</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-muted bg-black opacity-75">Configura como Inventario Diario solo productos críticos</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Aplica el Inventario Ciego al Momento del Corte de Caja</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">La merma generada solo puede ser confirmada por un usuario que tenga la contraseña autorizada</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Genera Producción es de Productos Teminados, para que controles la utilización de la Materia Prima en Cocina</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Monitorea el reporte de Consumos, para confirmar que tus recetas sean correctas</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Revisa periodicamente el reporte de Costos, para confirmar que tu precio del platillo corresponde al costo del mismo</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste01"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste02"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste03"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste04"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste05"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrWaste06"]</li>
                 </ul>
             </div>
             <div class="col-md-4 m-auto">
@@ -128,42 +124,38 @@
         <div class="text-center">
             <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
                 <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
-                <span class="mx-3">Te Podemos Asesorar</span>
+                <span class="mx-3">@localizer["btnWhatsAppAsesoria"]</span>
             </a>
         </div>
     </div>
 </div>
 <div class="container py-3">
     <div class="row margin60">
-        <h2 class="text-center display-4 mb-5">Tu Restaurante en la Nube</h2>
+        <h2 class="text-center display-4 mb-5">@localizer["Header30"]</h2>
         <div class="col-md-4">
             <img class="img-thumbnail rounded" src="/images/SistemaEnLaNube.png"/>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-6 mt-5">
-            <h3 class="text-center">Saca provecho de la tecnología</h3>
-            <p>Accede a tu restaurante desde cualquier parte, para que configures lo que necesites y saques
-                la información que desees en cualquier momento
-            </p>
+            <h3 class="text-center">@localizer["Header31"]</h3>
+            <p>@localizer["txtCloud"]</p>
             <p></p>
         </div>
     </div>
 </div>
 <div class="bg-gray25 py-5">
     <div class="container">
-        <h3 class="text-center display-6">Configura Tus Inventarios Según Lo Necesites</h3>
+        <h3 class="text-center display-6">@localizer["Header40"]</h3>
         <div class="row">
             <div class="col-md-6 my-5">
-                <h4 class="text-center">Gestiona el levantamiento de los inventarios de varias formas</h4>
-                <p>Puedes configurar las materias primas de mayor relevancia en el Inventario Diario. Así tendrás control
-                    de las Materias Primas más importantes todos los días.
-                </p>
+                <h4 class="text-center">@localizer["Header41"]</h4>
+                <p>@localizer["txtInventories"]</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-muted bg-transparent">Recibe el resultado del inventario en tu correo.</li>
-                    <li class="list-group-item text-muted bg-transparent">Al corte has levantamiendo de los productos críticos, diarios</li>
-                    <li class="list-group-item text-muted bg-transparent">Configura las Materias Primas segun su relevancia: Diario, Semanal, Mensual</li>
-                    <li class="list-group-item text-muted bg-transparent">Activa los inventarios ciegos, para un mejor control</li>
-                    <li class="list-group-item text-muted bg-transparent">Gestion los traspasos entre los diferentes almacenes para un mejor resultado</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrInventories01"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrInventories02"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrInventories03"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrInventories04"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrInventories05"]</li>
                 </ul>
             </div>
             <div class="col-md-2"></div>
@@ -174,37 +166,37 @@
     </div>
 </div>
 <div class="container padding60">
-    <h3 class="text-center display-6 mb-5">Otros Procesos y Configuraciones</h3>
+    <h3 class="text-center display-6 mb-5">@localizer["Header50"]</h3>
     <div class="row mt-2">
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Reportes por Correo</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard01"]</h4>
                 <div class="card-body">
-                    <p class="lead">Recibe en tu correo los Cortes, Reportes de Venta e Inventarios capturados de la sucursal.</p>
+                    <p class="lead">@localizer["txtProcessCard01"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Pronósticos de Ventas</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard02"]</h4>
                 <div class="card-body">
-                    <p class="lead">Aprovecha la información del historico de tu venta para programar tu día, con las materias primas necesarias para la venta de tu día a día</p>
+                    <p class="lead">@localizer["txtProcessCard02"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Extras / Observaciones</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard03"]</h4>
                 <div class="card-body">
-                    <p class="lead">Configura tu platillo según la petición de tu cliente, dale flexibilidad a la entrega de tus platillos.</p>
+                    <p class="lead">@localizer["txtProcessCard03"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Producción</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard04"]</h4>
                 <div class="card-body">
-                    <p class="lead">Controla tus materias primas en proceso, y aprovecha al máximo tus recursos. </p>
+                    <p class="lead">@localizer["txtProcessCard04"]</p>
                 </div>
             </div>
         </div>
@@ -212,33 +204,33 @@
     <div class="row mt-2">
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Factura Digital</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard05"]</h4>
                 <div class="card-body">
-                    <p class="lead">Genera tus facturas 3.3 y 4.0, o usa el servicio de Facturación en Línea, por medio de un código QR, para que tu cliente facture desde una Página Web</p>
+                    <p class="lead">@localizer["txtProcessCard05"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Control de Reparto</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard06"]</h4>
                 <div class="card-body">
-                    <p class="lead">Si cuentas con servicio de reparto, puedes llevar la liquidación de cada repartidor. Asignando los servicios al Repartidor que entrega la mercancía.</p>
+                    <p class="lead">@localizer["txtProcessCard06"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Sistema en la Nube</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard07"]</h4>
                 <div class="card-body">
-                    <p class="lead">Conecta a tu restaurante desde cualquier parte, revisa reportes, ajusta precios, da de alta nuevos platillos sin estar en el restaurante</p>
+                    <p class="lead">@localizer["txtProcessCard07"]</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 mb-2">
             <div class="card shadow">
-                <h4 class="card-header bg-body text-light">Soporte y Capacitación</h4>
+                <h4 class="card-header bg-body text-light">@localizer["HeaderProcessCard08"]</h4>
                 <div class="card-body">
-                    <p class="lead">Te acompañamos todos los día del año, brindandote tips y ayuda sobre el sistema.</p>
+                    <p class="lead">@localizer["txtProcessCard08"]</p>
                 </div>
             </div>
         </div>

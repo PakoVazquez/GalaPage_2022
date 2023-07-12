@@ -1,5 +1,6 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Products.OtrosProductosModel
 @{
 }
-<h3 class="main-title text-center">En Construcción</h3>
+<h3 class="main-title text-center">@localizer["Header10"]</h3>

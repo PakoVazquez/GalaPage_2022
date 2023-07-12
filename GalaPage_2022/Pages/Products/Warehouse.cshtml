@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Products.WarehouseModel
 @{
     ViewData["Title"] = "Almacén";
@@ -8,17 +9,12 @@
     <div class="row">
         <div class="col-md-8 mb-3">
             <h3 class="main-title text-center margin60">Amigo Almacén</h3>
-            <h4 class="main-subtitle">Sistema Administrador de Centro de Distribución</h4>
-            <p class="lead fw-normal">
-                Con Amigo Almacén, puedes llevar el control de tu Centro de Distribución, Inventarios, Producción,
-                Envió de Mercancía, Pedidos y Rutas.
-            </p>
-            <p class="lead fw-normal">
-                Conecta y Realiza diferentes tareas necesarias que simplifican la labor entre Almacén y las Sucursales.
-            </p>
-            <h4 class="main-subtitle text-center margin60">Renta mensual por solo: <span class="fw-bolder fs-1">$1,599.00 m.n.</span></h4>
+            <h4 class="main-subtitle">@localizer["Header11"]</h4>
+            <p class="lead fw-normal">@localizer["txtWarehouse01"]</p>
+            <p class="lead fw-normal">@localizer["txtWarehouse02"]</p>
+            <h4 class="main-subtitle text-center margin60">@localizer["priceWarehouse"]<span class="fw-bolder fs-1">$1,599.00 m.n.</span></h4>
             <div class="d-flex justify-content-center my-5">
-                <a class="btn btn-primary btn-lg btn-block shadow w-50" href="/Contact/Contact">Solicitar más Información</a>
+                <a class="btn btn-primary btn-lg btn-block shadow w-50" href="/Contact/Contact">@localizer["btnContact"]</a>
             </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
@@ -30,13 +26,13 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-primary bg-opacity-50">
-                    Pronósticos
+                    @localizer["HeaderWarehouseCard01"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Herramientas Estadísticas para Almacén</p>
+                    <p class="fw-bold fs-5">@localizer["txtWarehouseCard01"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Pronósticos de Compras</li>
-                        <li class="list-group-item text-muted">Pronósticos de Ventas</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseForecasts01"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseForecasts02"]</li>
                         <li class="list-group-item text-muted"></li>
                     </ul>
                 </div>
@@ -45,14 +41,14 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-success bg-opacity-50">
-                    Permisos
+                    @localizer["HeaderWarehouseCard02"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">El Sistema Amigo Almacén se se gestiona bajo permisos para cada usuario.</p>
+                    <p class="fw-bold fs-5">@localizer["txtWarehouseCard02"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Asigna solo los permisos que necesite el usuario</li>
-                        <li class="list-group-item text-muted">Para cada Usuario necesitas asignar los permisos que necesita</li>
-                        <li class="list-group-item text-muted">Todo el sistema esta bajo permisos.</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehousePermissions01"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehousePermissions02"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehousePermissions03"]</li>
                     </ul>
                 </div>
             </div>
@@ -60,17 +56,17 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-primary bg-opacity-50">
-                    Inventarios
+                    @localizer["HeaderWarehouseCard03"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Control de Inventarios dinámico y configurable.</p>
+                    <p class="fw-bold fs-5">@localizer["txtWarehouseCard03"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Inventarios Diarios</li>
-                        <li class="list-group-item text-muted">Inventarios Semanales</li>
-                        <li class="list-group-item text-muted">Inventarios Mensuales</li>
-                        <li class="list-group-item text-muted">Envio de resultados por eMail</li>
-                        <li class="list-group-item text-muted">Permisos diferentes, para configurar los roles de usuarios</li>
-                        <li class="list-group-item text-muted">Inventarios para cada Sub Almacén</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories01"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories02"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories03"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories04"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories05"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseInventories06"]</li>
                     </ul>
                 </div>
             </div>
@@ -78,16 +74,16 @@
         <div class="col-md-3">
             <div class="card shadow p-3 mb-5 rounded">
                 <div class="card-header text-center fs-3 bg-success bg-opacity-50">
-                    Procesos
+                    @localizer["HeaderWarehouseCard04"]
                 </div>
                 <div class="card-body">
-                    <p class="fw-bold fs-5">Diferentes procesos para mejorar el control de los recursos</p>
+                    <p class="fw-bold fs-5">@localizer["txtWarehouseCard04"]</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-muted">Producción</li>
-                        <li class="list-group-item text-muted">Órdenes de Compra</li>
-                        <li class="list-group-item text-muted">REcetas para los Productos Procesados</li>
-                        <li class="list-group-item text-muted">Dos tipos de Costeo</li>
-                        <li class="list-group-item text-muted">Genera Carta Porte del SAT</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseProcess01"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseProcess02"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseProcess03"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseProcess04"]</li>
+                        <li class="list-group-item text-muted">@localizer["attrWarehouseProcess05"]</li>
                     </ul>
                 </div>
             </div>
@@ -98,20 +94,18 @@
     <!--  -->
 <div class="bg-black opacity-75 text-white py-5">
     <div class="container">
-        <h3 class="display-6 text-center">Usa Mejor Tus Materias Primas</h3>
+        <h3 class="display-6 text-center">@localizer["Header20"]</h3>
         <div class="row my-5">
             <div class="col-md-8 mb-3">
-                <h3 class="text-center">Aprovecha los Diferentes Almacenes que puedes tener</h3>
-                <p>Con Amigo Almacén puedes llevar un control de Mermas y/o de Producción que te permita ahorrar en Materias Primas, 
-                    reduciendo un posible 10% o 12% de merma a un 1.5 o 2% como estandar permitido.
-                </p>
-                <p>Puedes seguir estas recomendaciones para lograr los objetivos</p>
+                <h3 class="text-center">@localizer["Header21"]</h3>
+                <p>@localizer["txtRawMaterial01"]</p>
+                <p>@localizer["txtRawMaterial02"]</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-muted bg-black opacity-75">Registra los almacenes que necesites: Almacen de Mermas, Almacen de Cocina</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Haz los traspasos de Materias Primas a los diferentes almacenes, segun corresponda.</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Para el Almacén de Cocina, genera las Producciones que te reporten, para convertir las recetas en productos terminados</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Lleva control de productos terminados que puedes enviar a tus sucursales.</li>
-                    <li class="list-group-item text-muted bg-black opacity-75">Monitorea el reporte de entradas en el almacén de Mermas.</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrRawMaterial01"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrRawMaterial02"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrRawMaterial03"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrRawMaterial04"]</li>
+                    <li class="list-group-item text-muted bg-black opacity-75">@localizer["attrRawMaterial05"]</li>
                 </ul>
             </div>
             <div class="col-md-4 m-auto">
@@ -121,41 +115,38 @@
         <div class="text-center">
             <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
                 <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
-                <span class="mx-3">Te Podemos Asesorar</span>
+                <span class="mx-3">@localizer["btnAdviseYou"]</span>
             </a>
         </div>
     </div>
 </div>
 <div class="container py-5">
     <div class="row">
-        <h2 class="text-center display-4 mb-5">Tu Almacén en la Nube</h2>
+        <h2 class="text-center display-4 mb-5">@localizer["Header30"]</h2>
         <div class="col-md-4">
             <img class="img-thumbnail rounded" src="/images/SistemaEnLaNube.png"/>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-6 mt-5">
-            <h3 class="text-center">Saca provecho de la Tecnología</h3>
-            <p>Accede a tu almacén desde cualquier parte, para que configures lo que necesites y saques
-                la información que desees en cualquier momento
-            </p>
+            <h3 class="text-center">@localizer["Header31"]</h3>
+            <p>@localizer["txtCloudWaregouse"]</p>
             <p></p>
         </div>
     </div>
 </div>
 <div class="bg-gray25 py-5">
     <div class="container">
-        <h3 class="text-center display-6">Pedidos</h3>
+        <h3 class="text-center display-6">@localizer["Header40"]</h3>
         <div class="row">
             <div class="col-md-6 my-5">
-                <h4 class="text-center">Recibe los pedidos desde las sucursales</h4>
-                <p>Puedes recibir tanto Pedidos, como Traspasos, Devoluciones desde las sucursales, para controlar cada movimiento segun lo requieras.
-                </p>
+                <h4 class="text-center">@localizer["Header41"]</h4>
+                <p>@localizer["txtOrders"]</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-muted bg-transparent">Recibe los Pedidos de las Sucursales</li>
-                    <li class="list-group-item text-muted bg-transparent">Antes de procesar los Pedidos, puedes ajustarlos segén tus necesidades</li>
-                    <li class="list-group-item text-muted bg-transparent">Recibe traspasos de mercancia desde las sucursales</li>
-                    <li class="list-group-item text-muted bg-transparent">Identifica quien te envia la devolución de los productos</li>
-                    <li class="list-group-item text-muted bg-transparent">Revisa las existencias de las Sucursales desde el Almacén</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrOrders01"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrOrders02"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrOrders03"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrOrders04"]</li>
+                    <li class="list-group-item text-muted bg-transparent">@localizer["attrOrders05"]</li>
                 </ul>
             </div>
             <div class="col-md-2"></div>

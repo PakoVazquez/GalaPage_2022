@@ -118,72 +118,72 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnBuyHere" xml:space="preserve">
-    <value>Compra Aquí</value>
+    <value>Buy Here</value>
   </data>
   <data name="btnKnowMore" xml:space="preserve">
-    <value>Saber Más</value>
+    <value>Know more</value>
   </data>
   <data name="btnPrices" xml:space="preserve">
-    <value>Precios</value>
+    <value>Prices</value>
   </data>
   <data name="btnRequestADemo" xml:space="preserve">
-    <value>Solicitar una Demostración</value>
+    <value>Request a demo</value>
   </data>
   <data name="btnWhatsApp" xml:space="preserve">
     <value>WhatsApp</value>
   </data>
   <data name="CompletedPOS" xml:space="preserve">
-    <value>Sistema de Administración Completo</value>
+    <value>Complete Administration System</value>
   </data>
   <data name="DevelopedBy" xml:space="preserve">
-    <value>por Gala Sistemas S.A. de C.V.</value>
+    <value>by Gala Sistemas S.A. de C.V.</value>
   </data>
   <data name="ECommerceAttr1" xml:space="preserve">
-    <value>Funciona como una aplicación</value>
+    <value>Works like an app</value>
   </data>
   <data name="ECommerceAttr2" xml:space="preserve">
-    <value>Publica solo los platillos que desees</value>
+    <value>Post only the dishes you want</value>
   </data>
   <data name="ECommerceAttr3" xml:space="preserve">
-    <value>Activa el Modo Servicio a Domicilio, si cuentas con el</value>
+    <value>Activate the Delivery Service Mode, only if you have it</value>
   </data>
   <data name="ECommerceAttr4" xml:space="preserve">
-    <value>Recibe tu ingreso sin intermediarios</value>
+    <value>Receive your income without intermediaries</value>
   </data>
   <data name="ECommerceAttr5" xml:space="preserve">
-    <value>Deja de pagar altas comisiones</value>
+    <value>Stop paying high commissions</value>
   </data>
   <data name="FirstTextMercadoPago" xml:space="preserve">
-    <value>Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma</value>
+    <value>Now you can accept payments with credit and debit cards through the </value>
   </data>
   <data name="Header10" xml:space="preserve">
-    <value>Integra Mercado Pago a tu sistema Amigo Restaurante</value>
+    <value>Integrate Mercado Pago to your Amigo Restaurante system</value>
   </data>
   <data name="Header30" xml:space="preserve">
-    <value>Software diseñado para resolver problemas reales de la industria restaurantera.</value>
+    <value>Software designed to solve real problems in the restaurant industry.</value>
   </data>
   <data name="Header40" xml:space="preserve">
-    <value>e-Commerce de tu Restaurante, ligado con Amigo Restaurante</value>
+    <value>e-Commerce of your Restaurant, linked with Amigo Restaurante</value>
   </data>
   <data name="Header41" xml:space="preserve">
-    <value>Tu Restaurante en Línea.</value>
+    <value>Your Online Restaurant.</value>
   </data>
   <data name="SecondTextMercadoPago" xml:space="preserve">
-    <value>gracias a la integración de este medio de pago en nuestra comandera.</value>
+    <value>platform, thanks to the integration of this means of payment in our commander.</value>
   </data>
   <data name="TextCardInvoice" xml:space="preserve">
-    <value>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor servicio a tus clientes. Genera la factura global con pocos clics.Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</value>
+    <value>Generate your invoices quickly and easily, integrate online billing for a better service to your customers. Generate the global invoice with a few clicks. With online billing you can have the option of the SAT 3.3 and 4.0 invoice.</value>
   </data>
   <data name="TextCardRestaurant" xml:space="preserve">
-    <value>Sistema de Administración de Restaurantes, incluye Inventarios, Pronósticos, Cuentas Por Cobrar, Compras, Costos, Reportes, Notas de Crédito, Producción, El sistema en La Nube para una mejor administración. Cancelación de tickets exclusiva a para la administración.</value>
+    <value>Restaurant Management System, includes Inventories, Forecasts, Accounts Receivable, Purchases, Costs, Reports, Credit Notes, Production, The Cloud system for better administration. Exclusive ticket cancellation for administration.</value>
   </data>
   <data name="TextCardWarehouse" xml:space="preserve">
-    <value>Gestiona tu Almacén con la Producción Interna, Control de Inventarios, Costeo de tus Materias Primas, Control de Rutas, Pedidos en Línea, Pronósticos de Compras y de Ventas.</value>
+    <value>Manage your Warehouse with Internal Production, Inventory Control, Costing of your Raw Materials, Route Control, Online Orders, Purchase and Sales Forecasts.</value>
   </data>
   <data name="TextCompletedPOS" xml:space="preserve">
-    <value>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</value>
+    <value>It is not only a Point of Sale (POS) system, it contains much more than that, we invite you to discover it.</value>
   </data>
   <data name="txtInfo" xml:space="preserve">
-    <value>Información</value>
+    <value>Information</value>
   </data>
 </root>

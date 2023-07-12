@@ -117,73 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnBuyHere" xml:space="preserve">
-    <value>Compra Aquí</value>
+  <data name="attrPortalWeb01" xml:space="preserve">
+    <value>Publica las Fotos de Tu Carrousel de Fotos de la Pagina Principal</value>
   </data>
-  <data name="btnKnowMore" xml:space="preserve">
-    <value>Saber Más</value>
+  <data name="attrPortalWeb02" xml:space="preserve">
+    <value>Coloca un Icono de tu Restaurante</value>
   </data>
-  <data name="btnPrices" xml:space="preserve">
-    <value>Precios</value>
+  <data name="attrPortalWeb03" xml:space="preserve">
+    <value>Publica promociones de tu Restaurante (5 máximo)</value>
   </data>
-  <data name="btnRequestADemo" xml:space="preserve">
-    <value>Solicitar una Demostración</value>
+  <data name="attrPortalWeb04" xml:space="preserve">
+    <value>Las ubicaciones de los Restaurantes que tendran el Servicio Web</value>
   </data>
-  <data name="btnWhatsApp" xml:space="preserve">
-    <value>WhatsApp</value>
+  <data name="attrPortalWeb05" xml:space="preserve">
+    <value>Asigna un nombre para cada Platillos que Publicas</value>
   </data>
-  <data name="CompletedPOS" xml:space="preserve">
-    <value>Sistema de Administración Completo</value>
+  <data name="attrPortalWeb06" xml:space="preserve">
+    <value>Define el precio de venta para la Página</value>
   </data>
-  <data name="DevelopedBy" xml:space="preserve">
-    <value>por Gala Sistemas S.A. de C.V.</value>
+  <data name="attrPortalWeb07" xml:space="preserve">
+    <value>Publica una Foto para cada Platillo</value>
   </data>
-  <data name="ECommerceAttr1" xml:space="preserve">
-    <value>Funciona como una aplicación</value>
+  <data name="attrPortalWeb08" xml:space="preserve">
+    <value>Crea una cuenta con Stripe, para recibir directamente tus ventas, sin intermediarios.</value>
   </data>
-  <data name="ECommerceAttr2" xml:space="preserve">
-    <value>Publica solo los platillos que desees</value>
+  <data name="attrWebDelivery01" xml:space="preserve">
+    <value>Publica solo los platillos que decidas</value>
   </data>
-  <data name="ECommerceAttr3" xml:space="preserve">
-    <value>Activa el Modo Servicio a Domicilio, si cuentas con el</value>
+  <data name="attrWebDelivery02" xml:space="preserve">
+    <value>Recibe el Total de tu Venta*</value>
   </data>
-  <data name="ECommerceAttr4" xml:space="preserve">
-    <value>Recibe tu ingreso sin intermediarios</value>
+  <data name="attrWebDelivery03" xml:space="preserve">
+    <value>Entrega en Mostrador o Envía a Domicilio</value>
   </data>
-  <data name="ECommerceAttr5" xml:space="preserve">
-    <value>Deja de pagar altas comisiones</value>
-  </data>
-  <data name="FirstTextMercadoPago" xml:space="preserve">
-    <value>Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma</value>
+  <data name="attrWebDelivery04" xml:space="preserve">
+    <value>Recibe Notificaciones en el Local y en el Celular</value>
   </data>
   <data name="Header10" xml:space="preserve">
-    <value>Integra Mercado Pago a tu sistema Amigo Restaurante</value>
+    <value>Amigo Restaurante ahora esta en la Web</value>
+  </data>
+  <data name="Header20" xml:space="preserve">
+    <value>Amigo Entregas, Aplicación Web.</value>
+  </data>
+  <data name="Header21" xml:space="preserve">
+    <value>Características Amigo Entrega</value>
   </data>
   <data name="Header30" xml:space="preserve">
-    <value>Software diseñado para resolver problemas reales de la industria restaurantera.</value>
+    <value>Amigo Entrega. EL Portal Web de tu Restaurante.</value>
   </data>
-  <data name="Header40" xml:space="preserve">
-    <value>e-Commerce de tu Restaurante, ligado con Amigo Restaurante</value>
+  <data name="Header31" xml:space="preserve">
+    <value>Que controlas en el Portal</value>
   </data>
-  <data name="Header41" xml:space="preserve">
-    <value>Tu Restaurante en Línea.</value>
+  <data name="txtOnlineRestaurant" xml:space="preserve">
+    <value>Ahora puedes publicar los platillos de tu Sistema Amigo Restaurante en la Pagina Web o Aplicación Web de tu negocio, recibe notificaciones de los pedidos que entran por la Aplicación.</value>
   </data>
-  <data name="SecondTextMercadoPago" xml:space="preserve">
-    <value>gracias a la integración de este medio de pago en nuestra comandera.</value>
-  </data>
-  <data name="TextCardInvoice" xml:space="preserve">
-    <value>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor servicio a tus clientes. Genera la factura global con pocos clics.Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</value>
-  </data>
-  <data name="TextCardRestaurant" xml:space="preserve">
-    <value>Sistema de Administración de Restaurantes, incluye Inventarios, Pronósticos, Cuentas Por Cobrar, Compras, Costos, Reportes, Notas de Crédito, Producción, El sistema en La Nube para una mejor administración. Cancelación de tickets exclusiva a para la administración.</value>
-  </data>
-  <data name="TextCardWarehouse" xml:space="preserve">
-    <value>Gestiona tu Almacén con la Producción Interna, Control de Inventarios, Costeo de tus Materias Primas, Control de Rutas, Pedidos en Línea, Pronósticos de Compras y de Ventas.</value>
-  </data>
-  <data name="TextCompletedPOS" xml:space="preserve">
-    <value>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</value>
-  </data>
-  <data name="txtInfo" xml:space="preserve">
-    <value>Información</value>
+  <data name="txtPortalWeb" xml:space="preserve">
+    <value>Ingresa al e-Commerce con el Portal Web Amigo Entrega, lo gestionas desde el Software Sistema Amigo Restaurante y un programa especial que colocamos en tu maquina de Administración.</value>
   </data>
 </root>

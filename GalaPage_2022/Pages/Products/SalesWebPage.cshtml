@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Products.SalesWebPageModel
 @{
     ViewData["Title"] = "eCommerce";
@@ -6,27 +7,26 @@
 <div class="bg-dark">
     <div class="container padding60">
         <div class="col-8 mx-auto">
-            <h2 class="main-title text-light">Amigo Restaurante ahora esta en la Web</h2>
-            <p class="lead text-light">Ahora puedes publicar los platillos de tu Sistema Amigo Restaurante en la Pagina Web o Aplicación 
-                Web de tu negocio, recibe notificaciones de los pedidos que entran por la Aplicación.</p>
+            <h2 class="main-title text-light">@localizer["Header10"]</h2>
+            <p class="lead text-light">@localizer["txtOnlineRestaurant"]</p>
         </div>
     </div>
 </div>
 <div class="bg-gray25">
     <div class="container padding60">
-        <h3 class="main-subtitle text-center text-capitalize">Amigo Entregas, Aplicación Web.</h3>
+        <h3 class="main-subtitle text-center text-capitalize">@localizer["Header20"]</h3>
         <div class="row">
             <div class="col-md-6">
                 <img src="~/images/PantallaWebPage01.png" class="rounded mx-auto w-50 margin60" alt="Aplicación Web" />
             </div>
             <div class="col-md-6 d-flex align-items-center">
                 <div>
-                    <h3>Características Amigo Entrega</h3>
+                    <h3>@localizer["Header21"]</h3>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Publica solo los platillos que decidas</li>
-                        <li class="list-group-item">Recibe el Total de tu Venta*</li>
-                        <li class="list-group-item">Entrega en Mostrador o Envía a Domicilio</li>
-                        <li class="list-group-item">Recibe Notificaciones en el Local y en el Celular</li>
+                        <li class="list-group-item">@localizer["attrWebDelivery01"]</li>
+                        <li class="list-group-item">@localizer["attrWebDelivery02"]</li>
+                        <li class="list-group-item">@localizer["attrWebDelivery03"]</li>
+                        <li class="list-group-item">@localizer["attrWebDelivery04"]</li>
                     </ul>
                 </div>
             </div>
@@ -35,23 +35,21 @@
 </div>
 <div class="bg-mapa">
     <div class="container padding100">
-        <h3 class="display-6 text-center mb-5">Amigo Entrega. EL Portal Web de tu Restaurante.</h3>
+        <h3 class="display-6 text-center mb-5">@localizer["Header30"]</h3>
        <div class="row">
            <div class="col-md-7">
-                <p>Ingresa al e-Commerce con el Portal Web Amigo Entrega, lo gestionas desde el Software Sistema Amigo Restaurante y un programa 
-                    especial que colocamos en tu maquina de Administración.
-                </p>
+                <p>@localizer["txtPortalWeb"]</p>
                 <div>
-                    <h3>Que controlas en el Portal</h3>
+                    <h3>@localizer["Header31"]</h3>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-gray25">Publica las Fotos de Tu Carrousel de Fotos de la Pagina Principal</li>
-                        <li class="list-group-item bg-gray25">Coloca un Icono de tu Restaurante</li>
-                        <li class="list-group-item bg-gray25">Publica promociones de tu Restaurante (5 máximo)</li>
-                        <li class="list-group-item bg-gray25">Las ubicaciones de los Restaurantes que tendran el Servicio Web</li>
-                        <li class="list-group-item bg-gray25">Asigna un nombre para cada Platillos que Publicas</li>
-                        <li class="list-group-item bg-gray25">Define el precio de venta para la Página</li>
-                        <li class="list-group-item bg-gray25">Publica una Foto para cada Platillo</li>
-                        <li class="list-group-item bg-gray25">Crea una cuenta con Stripe, para recibir directamente tus ventas, sin intermediarios.</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb01"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb02"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb03"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb04"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb05"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb06"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb07"]</li>
+                        <li class="list-group-item bg-gray25">@localizer["attrPortalWeb08"]</li>
                     </ul>
                 </div>
            </div>

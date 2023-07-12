@@ -1,10 +1,11 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Products.MercadoPagoModel
 @{
     ViewData["Title"] = "Sistema POS con Mercado Pago";
 }
 <div class="pb-5">
-    <h2 class="text-center display-5 p-5">Intega Mercado Pago al Sistema POS Amigo Restaurante</h2>
+    <h2 class="text-center display-5 p-5">@localizer["Header10"]</h2>
 
     <div class="container info-mercado-pago">
         <div class="imagen-pointblue">
@@ -12,16 +13,13 @@
         </div>
         <div class="speach-mercadopago">
             <p>
-                Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma Mercado Pago,
-                gracias a la integración de este medio de pago en nuestra comandera. Esto te permitirá captar más ventas,
-                agilizar el servicio y disponer del dinero de forma inmediata.
-                Para obtener más información, haz clic en el siguiente enlace:
+                @localizer["txtMercadoPago01"]
                 <a href="https://www.mercadopago.com.mx/ayuda/24849" target="_blank">Políticas de Mercado Pago.</a>
             </p>
             <p>
-                Es importante mencionar que la integración de pagos con tarjetas actualmente solo está disponible con el dispositivo
+                @localizer["txtMercadoPago02"]
                 <a href="https://www.mercadopago.com.mx/point/invite?device=54&code=POINT_ORG" target="_blank">Point Blue de Mercado Pago</a>,
-                el cual puedes adquirir poniéndote en contacto con nosotros.
+                @localizer["txtMercadoPago03"]
             </p>
             @*<p>
                 Además, si adquieres la impresora manual, podrás imprimir la cuenta directamente en la mesa del cliente y
@@ -41,7 +39,7 @@
     <h2 class="text-center display-6 p-5"></h2>
 </div>
 <div class="bg-gray25 pb-5" >
-    <h2 class="text-center display-6 p-5">Acepta los medios de pagos favoritos de tus clientes</h2>
+    <h2 class="text-center display-6 p-5">@localizer["Header20"]</h2>
     <div class="medios-pago">
         <ul>
             <li><img src="~/images/mp-visa.png" /></li>

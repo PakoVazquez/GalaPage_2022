@@ -117,73 +117,121 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnBuyHere" xml:space="preserve">
-    <value>Compra Aquí</value>
+  <data name="attrHousekeeper01" xml:space="preserve">
+    <value>immediate update</value>
   </data>
-  <data name="btnKnowMore" xml:space="preserve">
-    <value>Saber Más</value>
+  <data name="attrHousekeeper02" xml:space="preserve">
+    <value>You must be connected to the same Network as the Server</value>
   </data>
-  <data name="btnPrices" xml:space="preserve">
-    <value>Precios</value>
+  <data name="attrHousekeeper03" xml:space="preserve">
+    <value>Available only for Android</value>
   </data>
-  <data name="btnRequestADemo" xml:space="preserve">
-    <value>Solicitar una Demostración</value>
+  <data name="attrRates01" xml:space="preserve">
+    <value>Different Rates for the rooms</value>
   </data>
-  <data name="btnWhatsApp" xml:space="preserve">
-    <value>WhatsApp</value>
+  <data name="attrRates02" xml:space="preserve">
+    <value>Relates the rates to a Section</value>
   </data>
-  <data name="CompletedPOS" xml:space="preserve">
-    <value>Sistema de Administración Completo</value>
+  <data name="attrRates03" xml:space="preserve">
+    <value>Assign rates to different companies</value>
   </data>
-  <data name="DevelopedBy" xml:space="preserve">
-    <value>por Gala Sistemas S.A. de C.V.</value>
+  <data name="btnAdviseWhatsApp" xml:space="preserve">
+    <value>We can advise you</value>
   </data>
-  <data name="ECommerceAttr1" xml:space="preserve">
-    <value>Funciona como una aplicación</value>
-  </data>
-  <data name="ECommerceAttr2" xml:space="preserve">
-    <value>Publica solo los platillos que desees</value>
-  </data>
-  <data name="ECommerceAttr3" xml:space="preserve">
-    <value>Activa el Modo Servicio a Domicilio, si cuentas con el</value>
-  </data>
-  <data name="ECommerceAttr4" xml:space="preserve">
-    <value>Recibe tu ingreso sin intermediarios</value>
-  </data>
-  <data name="ECommerceAttr5" xml:space="preserve">
-    <value>Deja de pagar altas comisiones</value>
-  </data>
-  <data name="FirstTextMercadoPago" xml:space="preserve">
-    <value>Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma</value>
+  <data name="btnQuote" xml:space="preserve">
+    <value>Quote</value>
   </data>
   <data name="Header10" xml:space="preserve">
-    <value>Integra Mercado Pago a tu sistema Amigo Restaurante</value>
+    <value>Hotel Gala</value>
+  </data>
+  <data name="Header11" xml:space="preserve">
+    <value>Hotel Management System</value>
+  </data>
+  <data name="Header20" xml:space="preserve">
+    <value>Speed ​​up the release of Rooms</value>
+  </data>
+  <data name="Header21" xml:space="preserve">
+    <value>Housekeeper App</value>
   </data>
   <data name="Header30" xml:space="preserve">
-    <value>Software diseñado para resolver problemas reales de la industria restaurantera.</value>
+    <value>Accessible from Anywhere</value>
+  </data>
+  <data name="Header31" xml:space="preserve">
+    <value>Connect From Home</value>
   </data>
   <data name="Header40" xml:space="preserve">
-    <value>e-Commerce de tu Restaurante, ligado con Amigo Restaurante</value>
+    <value>Register the Rates you Need</value>
   </data>
   <data name="Header41" xml:space="preserve">
-    <value>Tu Restaurante en Línea.</value>
+    <value>Configure the Rates you need for your rooms</value>
   </data>
-  <data name="SecondTextMercadoPago" xml:space="preserve">
-    <value>gracias a la integración de este medio de pago en nuestra comandera.</value>
+  <data name="Header50" xml:space="preserve">
+    <value>Other Processes and Configurations</value>
   </data>
-  <data name="TextCardInvoice" xml:space="preserve">
-    <value>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor servicio a tus clientes. Genera la factura global con pocos clics.Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</value>
+  <data name="HeaderCard01" xml:space="preserve">
+    <value>Night Audit</value>
   </data>
-  <data name="TextCardRestaurant" xml:space="preserve">
-    <value>Sistema de Administración de Restaurantes, incluye Inventarios, Pronósticos, Cuentas Por Cobrar, Compras, Costos, Reportes, Notas de Crédito, Producción, El sistema en La Nube para una mejor administración. Cancelación de tickets exclusiva a para la administración.</value>
+  <data name="HeaderCard02" xml:space="preserve">
+    <value>Reservations</value>
   </data>
-  <data name="TextCardWarehouse" xml:space="preserve">
-    <value>Gestiona tu Almacén con la Producción Interna, Control de Inventarios, Costeo de tus Materias Primas, Control de Rutas, Pedidos en Línea, Pronósticos de Compras y de Ventas.</value>
+  <data name="HeaderCard03" xml:space="preserve">
+    <value>SAT CFDi 4.0 Billing</value>
   </data>
-  <data name="TextCompletedPOS" xml:space="preserve">
-    <value>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</value>
+  <data name="HeaderProcessesCard01" xml:space="preserve">
+    <value>Reservations</value>
   </data>
-  <data name="txtInfo" xml:space="preserve">
-    <value>Información</value>
+  <data name="HeaderProcessesCard02" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="HeaderProcessesCard03" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="HeaderProcessesCard04" xml:space="preserve">
+    <value>More Processes</value>
+  </data>
+  <data name="HeaderProcessesCard05" xml:space="preserve">
+    <value>Cloud System</value>
+  </data>
+  <data name="HeaderProcessesCard06" xml:space="preserve">
+    <value>Support and Training</value>
+  </data>
+  <data name="txtCard01" xml:space="preserve">
+    <value>Automatically add a night to occupied rooms</value>
+  </data>
+  <data name="txtCard02" xml:space="preserve">
+    <value>Register your reservations, cancel a defined time before without charges, guarantee the reservation</value>
+  </data>
+  <data name="txtCard03" xml:space="preserve">
+    <value>Generate your invoices with the new features of the SAT, CFDi 4.0</value>
+  </data>
+  <data name="txtCloudHotel" xml:space="preserve">
+    <value>You can access your Hotel from any location, to configure Rates, Review Reports, and follow up on all pending and processes that you need in the system</value>
+  </data>
+  <data name="txtHotel01" xml:space="preserve">
+    <value>Manage your rooms, configure the rates, generate the income reports you need.</value>
+  </data>
+  <data name="txtHotel02" xml:space="preserve">
+    <value>Take advantage of the audit processes, make reservations, generate your invoices for both clients and the global day, quickly and easily</value>
+  </data>
+  <data name="txtHousekeeper" xml:space="preserve">
+    <value>Release the rooms at the time of visiting them, during the review you can access the application to release the room.</value>
+  </data>
+  <data name="txtProcessesCard01" xml:space="preserve">
+    <value>Make reservations according to the availability of your rooms.</value>
+  </data>
+  <data name="txtProcessesCard02" xml:space="preserve">
+    <value>Agrega una noche a las habitaciones ocupadas de forma automática.</value>
+  </data>
+  <data name="txtProcessesCard03" xml:space="preserve">
+    <value>Check the status of the rooms at any time</value>
+  </data>
+  <data name="txtProcessesCard04" xml:space="preserve">
+    <value>Cancel unconfirmed or non-guaranteed reservations to release your rooms.</value>
+  </data>
+  <data name="txtProcessesCard05" xml:space="preserve">
+    <value>Connect to your restaurant from anywhere, review reports, adjust prices, register new dishes without being in the restaurant</value>
+  </data>
+  <data name="txtProcessesCard06" xml:space="preserve">
+    <value>We accompany you every day of the year, giving you tips and help on the system.</value>
   </data>
 </root>

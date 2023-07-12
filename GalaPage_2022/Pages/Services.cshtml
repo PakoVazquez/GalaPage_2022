@@ -1,86 +1,88 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.ServicesModel
 @{
     ViewData["Title"] = "Planes y Precios";
 }
 <div class="costo-planes">
-    <h2 class="text-center display-5 p-5">Planes de Servicios para Amigo Restaurante</h2>
+    <h2 class="text-center display-5 p-5">@localizer["Header10"]</h2>
 
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="precios-card precios-card-blue">
-                    <h3 class="text-center mb-5">Renta Básica</h3>
+                    <h3 class="text-center mb-5">@localizer["HeaderCard01"]</h3>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Máquinas Ilimitadas</li>
-                        <li class="list-group-item bg-transparent">Factura Web 3.3 y 4.0 y Digital 4.0</li>
-                        <li class="list-group-item bg-transparent">Actualizaciones</li>
-                        <li class="list-group-item bg-transparent">Sistema en la Nube, para Acceso Remoto*</li>
-                        <li class="list-group-item bg-transparent">Soporte y Capacitación (1 Mes Gratis)</li>
-                        <li class="list-group-item bg-transparent">Sistema de Reportes en Windows</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-01"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-02"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-03"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-04"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-05"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard01-06"]</li>
                     </ul>
-                    <p class="text-center fs-2 font-monospace m-3">$699</p>
+                    <p class="text-center fs-2 font-monospace m-3">@localizer["priceCard01"]</p>
                     <div class="text-center mb-5">
-                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Suscribirme</a>
+                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">@localizer["btnSuscribe"]</a>
                     </div>
-                    <p class="text-muted precios-card-obs">*Necesario servicio de internet con posibilidad de configuración de puertos.</p>
+                    <p class="text-muted precios-card-obs">@localizer["footerCard01-01"]</p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="precios-card precios-card-green">
-                    <h3 class="text-center mb-5">Póliza Profesional</h3>
+                    <h3 class="text-center mb-5">@localizer["HeaderCard02"]</h3>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Máquinas Ilimitadas</li>
-                        <li class="list-group-item bg-transparent">Factura Web 3.3 y 4.0 y Digital 4.0</li>
-                        <li class="list-group-item bg-transparent">Actualizaciones</li>
-                        <li class="list-group-item bg-transparent">Sistema en la Nube, para Acceso Remoto*</li>
-                        <li class="list-group-item bg-transparent">Soporte y Capacitación 24/7</li>
-                        <li class="list-group-item bg-transparent">Control de Reparto en Windows y Android</li>
-                        <li class="list-group-item bg-transparent">Configuración de Routers</li>
-                        <li class="list-group-item bg-transparent">Sistema de Reportes y Diseño de Reportes</li>
-                        <li class="list-group-item bg-transparent">Licencias de Comanderas Electrónicas**</li>
-                        <li class="list-group-item bg-transparent">Integración con Mercado Pago desde la Comandera Electrónica</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-01"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-02"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-03"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-04"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-05"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-06"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-07"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-08"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-08"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard02-10"]</li>
                     </ul>
-                    <p class="text-center fs-2 font-monospace m-3">$1,265</p>
+                    <p class="text-center fs-2 font-monospace m-3">@localizer["priceCard02"]</p>
                     <div class="text-center mb-5">
-                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Suscribirme</a>
+                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">@localizer["btnSuscribe"]</a>
                     </div>
-                    <p class="text-muted precios-card-obs">* Un correo institucional, para envio de reportes y facturas.</p>
-                    <p class="text-muted precios-card-obs">** Se incluye la licencia de la Comandera en este plan, siempre que el equipo (tableta) sea adquirido con nosotros.</p>
+                    <p class="text-muted precios-card-obs">@localizer["footerCard02-01"]</p>
+                    <p class="text-muted precios-card-obs">@localizer["footerCard02-02"]</p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="precios-card precios-card-purple">
-                    <h3 class="text-center mb-5">Póliza Empresarial</h3>
+                    <h3 class="text-center mb-5">@localizer["HeaderCard03"]</h3>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Máquinas Ilimitadas</li>
-                        <li class="list-group-item bg-transparent">Factura Web 3.3 y 4.0 y Digital 4.0</li>
-                        <li class="list-group-item bg-transparent">Actualizaciones</li>
-                        <li class="list-group-item bg-transparent">Sistema en la Nube, para Acceso Remoto*</li>
-                        <li class="list-group-item bg-transparent">Soporte y Capacitación 24/7</li>
-                        <li class="list-group-item bg-transparent">Control de Reparto en Windows y Android</li>
-                        <li class="list-group-item bg-transparent">Configuracion de Routers</li>
-                        <li class="list-group-item bg-transparent">Sistema de Reportes y Diseño de Reportes</li>
-                        <li class="list-group-item bg-transparent">Licencias de Comanderas Electrónicas**</li>
-                        <li class="list-group-item bg-transparent">Integración con Mercado Pago desde la Comandera Electrónica</li>
-                        <li class="list-group-item bg-transparent">Analíticas de tu Negocio en Android</li>
-                        <li class="list-group-item bg-transparent">Sincronización de Usuarios entre Sucursales</li>
-                        <li class="list-group-item bg-transparent">e-Commerce de tu Negocio, tu Página Web de tu Restaurante.</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-01"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-02"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-03"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-04"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-05"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-06"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-07"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-08"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-09"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-10"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-11"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-12"]</li>
+                        <li class="list-group-item bg-transparent">@localizer["attrCard03-13"]</li>
                     </ul>
-                    <p class="text-center fs-2 font-monospace m-3">$2,295</p>
+                    <p class="text-center fs-2 font-monospace m-3">@localizer["priceCard03"]</p>
                     <div class="text-center mb-5">
-                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">Suscribirme</a>
+                        <a class="btn btn-primary shadow" asp-area="" asp-page="/Contact/DescargaGratis">@localizer["btnSuscribe"]</a>
                     </div>
-                    <p class="text-muted precios-card-obs">Un correo institucional, para envio de reportes y facturas.</p>
-                    <p class="text-muted precios-card-obs">** Se incluye la licencia de la Comandera en este plan, siempre que el equipo (tableta) sea adquirido con nosotros.</p>
+                    <p class="text-muted precios-card-obs">@localizer["footerCard03-01"]</p>
+                    <p class="text-muted precios-card-obs">@localizer["footerCard03-02"]</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container padding60 ">
-        <h5 class="mt-5">Adquiere uno de los planes que tenemos para ti. Aprovecha cada uno de ellos según tus necesidades.</h5>
-        <p>Tienes duda de cual elegir, nosotros te asesoramos, permitenos conocer tu negocio y ofrecerte una buena solución para tus necesidades.</p>
+        <h5 class="mt-5">@localizer["txtRental01"]</h5>
+        <p>@localizer["txtRental02"]</p>
     </div>
 </div>
+<div class="bg-light padding60"></div>

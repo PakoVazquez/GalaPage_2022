@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="attrInventories01" xml:space="preserve">
+    <value>Recibe el resultado del inventario en tu correo.</value>
+  </data>
+  <data name="attrInventories02" xml:space="preserve">
+    <value>Al corte has levantamiendo de los productos críticos, diarios</value>
+  </data>
+  <data name="attrInventories03" xml:space="preserve">
+    <value>Configura las Materias Primas segun su relevancia: Diario, Semanal, Mensual</value>
+  </data>
+  <data name="attrInventories04" xml:space="preserve">
+    <value>Activa los inventarios ciegos, para un mejor control</value>
+  </data>
+  <data name="attrInventories05" xml:space="preserve">
+    <value>Gestion los traspasos entre los diferentes almacenes para un mejor resultado</value>
+  </data>
+  <data name="attrWaste01" xml:space="preserve">
+    <value>Configura como Inventario Diario solo productos críticos</value>
+  </data>
+  <data name="attrWaste02" xml:space="preserve">
+    <value>Aplica el Inventario Ciego al Momento del Corte de Caja</value>
+  </data>
+  <data name="attrWaste03" xml:space="preserve">
+    <value>La merma generada solo puede ser confirmada por un usuario que tenga la contraseña autorizada</value>
+  </data>
+  <data name="attrWaste04" xml:space="preserve">
+    <value>Genera Producción es de Productos Teminados, para que controles la utilización de la Materia Prima en Cocina</value>
+  </data>
+  <data name="attrWaste05" xml:space="preserve">
+    <value>Monitorea el reporte de Consumos, para confirmar que tus recetas sean correctas</value>
+  </data>
+  <data name="attrWaste06" xml:space="preserve">
+    <value>Revisa periodicamente el reporte de Costos, para confirmar que tu precio del platillo corresponde al costo del mismo</value>
+  </data>
+  <data name="btnDemo" xml:space="preserve">
+    <value>Demostración</value>
+  </data>
+  <data name="btnWhatsAppAsesoria" xml:space="preserve">
+    <value>Te Podemos Asesorar</value>
+  </data>
+  <data name="CardDishes01" xml:space="preserve">
+    <value>Precios por Sección</value>
+  </data>
+  <data name="CardDishes02" xml:space="preserve">
+    <value>Proceso para calcular nuevos precios</value>
+  </data>
+  <data name="CardDishes03" xml:space="preserve">
+    <value>Combos o Platillos</value>
+  </data>
+  <data name="CardDishes04" xml:space="preserve">
+    <value>Imprime en diferentes impresoras (Barra, Cocina)</value>
+  </data>
+  <data name="CardDishes05" xml:space="preserve">
+    <value>Muestra las ordenes por Pantalla en Cocina</value>
+  </data>
+  <data name="CardDishes06" xml:space="preserve">
+    <value>Configura los platillos que vas a vender por eCommerce</value>
+  </data>
+  <data name="CardForecasts01" xml:space="preserve">
+    <value>Plan de Producción</value>
+  </data>
+  <data name="CardForecasts02" xml:space="preserve">
+    <value>Pronósticos de Compras</value>
+  </data>
+  <data name="CardForecasts03" xml:space="preserve">
+    <value>Pronósticos de Ventas</value>
+  </data>
+  <data name="CardForecasts04" xml:space="preserve">
+    <value>Días Especiales (festivos), para control de venta</value>
+  </data>
+  <data name="CardInventories01" xml:space="preserve">
+    <value>Inventarios Diarios</value>
+  </data>
+  <data name="CardInventories02" xml:space="preserve">
+    <value>Inventarios Semanales</value>
+  </data>
+  <data name="CardInventories03" xml:space="preserve">
+    <value>Inventarios Mensuales</value>
+  </data>
+  <data name="CardInventories04" xml:space="preserve">
+    <value>Inventarios Ciegos</value>
+  </data>
+  <data name="CardInventories05" xml:space="preserve">
+    <value>Envio de resultados por eMail</value>
+  </data>
+  <data name="CardInventories06" xml:space="preserve">
+    <value>Permisos diferentes, para configurar los roles de usuarios</value>
+  </data>
+  <data name="CardPermissions01" xml:space="preserve">
+    <value>Asigna solo los permisos que necesite el usuario</value>
+  </data>
+  <data name="CardPermissions02" xml:space="preserve">
+    <value>Crea modelos, para no repetir permisos</value>
+  </data>
+  <data name="CardPermissions03" xml:space="preserve">
+    <value>Asigna Permsios a los Modelos, para que puedan usar el sistema</value>
+  </data>
+  <data name="CardPermissions04" xml:space="preserve">
+    <value>Todo el sistema esta bajo permisos.</value>
+  </data>
+  <data name="CardPermissions05" xml:space="preserve">
+    <value>La mayor parte de Pantallas, Botones, Reportes, estan bajo permisos.</value>
+  </data>
+  <data name="Header11" xml:space="preserve">
+    <value>Sistema Gestor de Restaurantes</value>
+  </data>
+  <data name="Header20" xml:space="preserve">
+    <value>Usa Mejor Tus Materias Primas</value>
+  </data>
+  <data name="Header21" xml:space="preserve">
+    <value>Control de Mermas</value>
+  </data>
+  <data name="Header30" xml:space="preserve">
+    <value>Tu Restaurante en la Nube</value>
+  </data>
+  <data name="Header31" xml:space="preserve">
+    <value>Saca provecho de la tecnología</value>
+  </data>
+  <data name="Header40" xml:space="preserve">
+    <value>Configura Tus Inventarios Según Lo Necesites</value>
+  </data>
+  <data name="Header41" xml:space="preserve">
+    <value>Gestiona el levantamiento de los inventarios de varias formas</value>
+  </data>
+  <data name="Header50" xml:space="preserve">
+    <value>Otros Procesos y Configuraciones</value>
+  </data>
+  <data name="HeaderCardDishes" xml:space="preserve">
+    <value>Platillos</value>
+  </data>
+  <data name="HeaderCardForecasts" xml:space="preserve">
+    <value>Pronósticos</value>
+  </data>
+  <data name="HeaderCardInventories" xml:space="preserve">
+    <value>Inventarios</value>
+  </data>
+  <data name="HeaderCardPermissions" xml:space="preserve">
+    <value>Permisos</value>
+  </data>
+  <data name="HeaderProcessCard01" xml:space="preserve">
+    <value>Reportes por Correo</value>
+  </data>
+  <data name="HeaderProcessCard02" xml:space="preserve">
+    <value>Pronósticos de Ventas</value>
+  </data>
+  <data name="HeaderProcessCard03" xml:space="preserve">
+    <value>Extras / Observaciones</value>
+  </data>
+  <data name="HeaderProcessCard04" xml:space="preserve">
+    <value>Producción</value>
+  </data>
+  <data name="HeaderProcessCard05" xml:space="preserve">
+    <value>Factura Digital</value>
+  </data>
+  <data name="HeaderProcessCard06" xml:space="preserve">
+    <value>Control de Reparto</value>
+  </data>
+  <data name="HeaderProcessCard07" xml:space="preserve">
+    <value>Sistema en la Nube</value>
+  </data>
+  <data name="HeaderProcessCard08" xml:space="preserve">
+    <value>Soporte y Capacitación</value>
+  </data>
+  <data name="TextCardDishes" xml:space="preserve">
+    <value>Controla Inventarios desde los Platillos y sus Recetas.</value>
+  </data>
+  <data name="TextCardForecasts" xml:space="preserve">
+    <value>Ayudate de las herramientas estadísticas de tu venta</value>
+  </data>
+  <data name="TextCardInventories" xml:space="preserve">
+    <value>Control de Inventarios dinámico y configurable.</value>
+  </data>
+  <data name="TextCardPermissions" xml:space="preserve">
+    <value>Todo el Sistema AmigoRestaurante se encuentra bajo permisos</value>
+  </data>
+  <data name="txtCloud" xml:space="preserve">
+    <value>Accede a tu restaurante desde cualquier parte, para que configures lo que necesites y saques la información que desees en cualquier momento</value>
+  </data>
+  <data name="txtInventories" xml:space="preserve">
+    <value>Puedes configurar las materias primas de mayor relevancia en el Inventario Diario. Así tendrás control de las Materias Primas más importantes todos los días.</value>
+  </data>
+  <data name="txtProcessCard01" xml:space="preserve">
+    <value>Recibe en tu correo los Cortes, Reportes de Venta e Inventarios capturados de la sucursal.</value>
+  </data>
+  <data name="txtProcessCard02" xml:space="preserve">
+    <value>Aprovecha la información del historico de tu venta para programar tu día, con las materias primas necesarias para la venta de tu día a día</value>
+  </data>
+  <data name="txtProcessCard03" xml:space="preserve">
+    <value>Configura tu platillo según la petición de tu cliente, dale flexibilidad a la entrega de tus platillos.</value>
+  </data>
+  <data name="txtProcessCard04" xml:space="preserve">
+    <value>Controla tus materias primas en proceso, y aprovecha al máximo tus recursos.</value>
+  </data>
+  <data name="txtProcessCard05" xml:space="preserve">
+    <value>Genera tus facturas 3.3 y 4.0, o usa el servicio de Facturación en Línea, por medio de un código QR, para que tu cliente facture desde una Página Web</value>
+  </data>
+  <data name="txtProcessCard06" xml:space="preserve">
+    <value>Si cuentas con servicio de reparto, puedes llevar la liquidación de cada repartidor. Asignando los servicios al Repartidor que entrega la mercancía.</value>
+  </data>
+  <data name="txtProcessCard07" xml:space="preserve">
+    <value>Conecta a tu restaurante desde cualquier parte, revisa reportes, ajusta precios, da de alta nuevos platillos sin estar en el restaurante</value>
+  </data>
+  <data name="txtProcessCard08" xml:space="preserve">
+    <value>Te acompañamos todos los día del año, brindandote tips y ayuda sobre el sistema.</value>
+  </data>
+  <data name="txtRest01" xml:space="preserve">
+    <value>Con Amigo Restaurante no solo llevas la venta de tu negocio, también controlas otros aspectos como Costos, Inventarios, Producción, Pronósticos de Compras y Ventas, Ventas por la Página Web, Facturación tradicional y en línea y más...</value>
+  </data>
+  <data name="txtWaste01" xml:space="preserve">
+    <value>Con Amigo Restaurante puedes llevar un control de Mermas que te permita ahorrar en Materias Primas, reduciendo un posible 10% o 12% de merma a un 1.5 o 2% como estandar permitido.</value>
+  </data>
+  <data name="txtWaste02" xml:space="preserve">
+    <value>Aplica los siguientes procesos y el resultado te sorprenderá</value>
+  </data>
+</root>

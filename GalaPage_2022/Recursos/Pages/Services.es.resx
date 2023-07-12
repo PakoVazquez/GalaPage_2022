@@ -117,73 +117,136 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnBuyHere" xml:space="preserve">
-    <value>Compra Aquí</value>
+  <data name="attrCard01-01" xml:space="preserve">
+    <value>Máquinas Ilimitadas</value>
   </data>
-  <data name="btnKnowMore" xml:space="preserve">
-    <value>Saber Más</value>
+  <data name="attrCard01-02" xml:space="preserve">
+    <value>Factura Web 3.3 y 4.0 y Digital 4.0</value>
   </data>
-  <data name="btnPrices" xml:space="preserve">
-    <value>Precios</value>
+  <data name="attrCard01-03" xml:space="preserve">
+    <value>Actualizaciones</value>
   </data>
-  <data name="btnRequestADemo" xml:space="preserve">
-    <value>Solicitar una Demostración</value>
+  <data name="attrCard01-04" xml:space="preserve">
+    <value>Sistema en la Nube, para Acceso Remoto*</value>
   </data>
-  <data name="btnWhatsApp" xml:space="preserve">
-    <value>WhatsApp</value>
+  <data name="attrCard01-05" xml:space="preserve">
+    <value>Soporte y Capacitación (1 Mes Gratis)</value>
   </data>
-  <data name="CompletedPOS" xml:space="preserve">
-    <value>Sistema de Administración Completo</value>
+  <data name="attrCard01-06" xml:space="preserve">
+    <value>Sistema de Reportes en Windows</value>
   </data>
-  <data name="DevelopedBy" xml:space="preserve">
-    <value>por Gala Sistemas S.A. de C.V.</value>
+  <data name="attrCard02-01" xml:space="preserve">
+    <value>Máquinas Ilimitadas</value>
   </data>
-  <data name="ECommerceAttr1" xml:space="preserve">
-    <value>Funciona como una aplicación</value>
+  <data name="attrCard02-02" xml:space="preserve">
+    <value>Factura Web 3.3 y 4.0 y Digital 4.0</value>
   </data>
-  <data name="ECommerceAttr2" xml:space="preserve">
-    <value>Publica solo los platillos que desees</value>
+  <data name="attrCard02-03" xml:space="preserve">
+    <value>Actualizaciones</value>
   </data>
-  <data name="ECommerceAttr3" xml:space="preserve">
-    <value>Activa el Modo Servicio a Domicilio, si cuentas con el</value>
+  <data name="attrCard02-04" xml:space="preserve">
+    <value>Sistema en la Nube, para Acceso Remoto*</value>
   </data>
-  <data name="ECommerceAttr4" xml:space="preserve">
-    <value>Recibe tu ingreso sin intermediarios</value>
+  <data name="attrCard02-05" xml:space="preserve">
+    <value>Soporte y Capacitación 24/7</value>
   </data>
-  <data name="ECommerceAttr5" xml:space="preserve">
-    <value>Deja de pagar altas comisiones</value>
+  <data name="attrCard02-06" xml:space="preserve">
+    <value>Control de Reparto en Windows y Android</value>
   </data>
-  <data name="FirstTextMercadoPago" xml:space="preserve">
-    <value>Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma</value>
+  <data name="attrCard02-07" xml:space="preserve">
+    <value>Configuración de Routers</value>
+  </data>
+  <data name="attrCard02-08" xml:space="preserve">
+    <value>Sistema de Reportes y Diseño de Reportes</value>
+  </data>
+  <data name="attrCard02-09" xml:space="preserve">
+    <value>Licencias de Comanderas Electrónicas**</value>
+  </data>
+  <data name="attrCard02-10" xml:space="preserve">
+    <value>Integración con Mercado Pago desde la Comandera Electrónica</value>
+  </data>
+  <data name="attrCard03-01" xml:space="preserve">
+    <value>Máquinas Ilimitadas</value>
+  </data>
+  <data name="attrCard03-02" xml:space="preserve">
+    <value>Factura Web 3.3 y 4.0 y Digital 4.0</value>
+  </data>
+  <data name="attrCard03-03" xml:space="preserve">
+    <value>Actualizaciones</value>
+  </data>
+  <data name="attrCard03-04" xml:space="preserve">
+    <value>Sistema en la Nube, para Acceso Remoto*</value>
+  </data>
+  <data name="attrCard03-05" xml:space="preserve">
+    <value>Soporte y Capacitación 24/7</value>
+  </data>
+  <data name="attrCard03-06" xml:space="preserve">
+    <value>Control de Reparto en Windows y Android</value>
+  </data>
+  <data name="attrCard03-07" xml:space="preserve">
+    <value>Configuracion de Routers</value>
+  </data>
+  <data name="attrCard03-08" xml:space="preserve">
+    <value>Sistema de Reportes y Diseño de Reportes</value>
+  </data>
+  <data name="attrCard03-09" xml:space="preserve">
+    <value>Licencias de Comanderas Electrónicas**</value>
+  </data>
+  <data name="attrCard03-10" xml:space="preserve">
+    <value>Integración con Mercado Pago desde la Comandera Electrónica</value>
+  </data>
+  <data name="attrCard03-11" xml:space="preserve">
+    <value>Analíticas de tu Negocio en Android</value>
+  </data>
+  <data name="attrCard03-12" xml:space="preserve">
+    <value>Sincronización de Usuarios entre Sucursales</value>
+  </data>
+  <data name="attrCard03-13" xml:space="preserve">
+    <value>e-Commerce de tu Negocio, tu Página Web de tu Restaurante.</value>
+  </data>
+  <data name="btnSuscribe" xml:space="preserve">
+    <value>Suscribirme</value>
+  </data>
+  <data name="footerCard01-01" xml:space="preserve">
+    <value>*Necesario servicio de internet con posibilidad de configuración de puertos.</value>
+  </data>
+  <data name="footerCard02-01" xml:space="preserve">
+    <value>* Un correo institucional, para envio de reportes y facturas.</value>
+  </data>
+  <data name="footerCard02-02" xml:space="preserve">
+    <value>** Se incluye la licencia de la Comandera en este plan, siempre que el equipo (tableta) sea adquirido con nosotros.</value>
+  </data>
+  <data name="footerCard03-01" xml:space="preserve">
+    <value>Un correo institucional, para envio de reportes y facturas.</value>
+  </data>
+  <data name="footerCard03-02" xml:space="preserve">
+    <value>** Se incluye la licencia de la Comandera en este plan, siempre que el equipo (tableta) sea adquirido con nosotros.</value>
   </data>
   <data name="Header10" xml:space="preserve">
-    <value>Integra Mercado Pago a tu sistema Amigo Restaurante</value>
+    <value>Planes de Renta para Amigo Restaurante</value>
   </data>
-  <data name="Header30" xml:space="preserve">
-    <value>Software diseñado para resolver problemas reales de la industria restaurantera.</value>
+  <data name="HeaderCard01" xml:space="preserve">
+    <value>Renta Básica</value>
   </data>
-  <data name="Header40" xml:space="preserve">
-    <value>e-Commerce de tu Restaurante, ligado con Amigo Restaurante</value>
+  <data name="HeaderCard02" xml:space="preserve">
+    <value>Póliza Profesional</value>
   </data>
-  <data name="Header41" xml:space="preserve">
-    <value>Tu Restaurante en Línea.</value>
+  <data name="HeaderCard03" xml:space="preserve">
+    <value>Póliza Empresarial</value>
   </data>
-  <data name="SecondTextMercadoPago" xml:space="preserve">
-    <value>gracias a la integración de este medio de pago en nuestra comandera.</value>
+  <data name="priceCard01" xml:space="preserve">
+    <value>$699</value>
   </data>
-  <data name="TextCardInvoice" xml:space="preserve">
-    <value>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor servicio a tus clientes. Genera la factura global con pocos clics.Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</value>
+  <data name="priceCard02" xml:space="preserve">
+    <value>$1,265</value>
   </data>
-  <data name="TextCardRestaurant" xml:space="preserve">
-    <value>Sistema de Administración de Restaurantes, incluye Inventarios, Pronósticos, Cuentas Por Cobrar, Compras, Costos, Reportes, Notas de Crédito, Producción, El sistema en La Nube para una mejor administración. Cancelación de tickets exclusiva a para la administración.</value>
+  <data name="priceCard03" xml:space="preserve">
+    <value>$2,295</value>
   </data>
-  <data name="TextCardWarehouse" xml:space="preserve">
-    <value>Gestiona tu Almacén con la Producción Interna, Control de Inventarios, Costeo de tus Materias Primas, Control de Rutas, Pedidos en Línea, Pronósticos de Compras y de Ventas.</value>
+  <data name="txtRental01" xml:space="preserve">
+    <value>Adquiere uno de los planes que tenemos para ti. Aprovecha cada uno de ellos según tus necesidades.</value>
   </data>
-  <data name="TextCompletedPOS" xml:space="preserve">
-    <value>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</value>
-  </data>
-  <data name="txtInfo" xml:space="preserve">
-    <value>Información</value>
+  <data name="txtRental02" xml:space="preserve">
+    <value>Tienes duda de cual elegir, nosotros te asesoramos, permitenos conocer tu negocio y ofrecerte una buena solución para tus necesidades.</value>
   </data>
 </root>

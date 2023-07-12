@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.BillingModel
 @{
     ViewData["Title"] = "Facturación";
@@ -6,12 +7,9 @@
 <div class="container">
     <div class="row margin60">
         <div class="col-md-8 d-flex flex-column justify-content-center">
-            <h3 class="main-title mb-5 text-center">Factura Electronica</h3>
-            <p class="lead">Todos los sistemas de Gala Sistemas incluyen el módulo de Facturación Electrónica, para que generes con pocos 
-                clics las facturas a tus clientes y tus facturas globales de ventas.
-            </p>
-            <p class="lead">Gala Sistemas cuenta con la Plataforma de Facturación en Línea para tu negocio, ahorrando tiempo de operación 
-                en tu negocio, permitiendo a tus clientes hacer la factura desde su telefono y/o computadora.</p>
+            <h3 class="main-title mb-5 text-center">@localizer["Header10"]</h3>
+            <p class="lead">@localizer["txtBilling01"]</p>
+            <p class="lead">@localizer["txtBilling02"]</p>
         </div>
         <div class="col-md-4 d-flex justify-content-center align-items-center">
             <img class="w-75" src="/images//PantallaFacturaEnLinea.png" alt="Imagen Principal" />
@@ -21,58 +19,56 @@
 <div class="bg-gray25 py-5">
     <div class="container">
         <div class="row">
-            <h3 class="display-6 text-center fw-bold">Factura Electrónica</h3>
+            <h3 class="display-6 text-center fw-bold">@localizer["Header20"]</h3>
             <div class="row">
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-primary">Recibos de Pago</h5>
-                        <p class="card-text text-muted">Genera los recibos de pago sobre las facturas que hayas generado como Pago en Parcialidades</p>
+                        <h5 class="card-title text-center text-primary">@localizer["HeaderBillingCard01"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard01"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-info">Notas de Crédito</h5>
-                        <p class="card-text text-muted">Crea la nota de crétido sobre tu factura, con pocos clicks.</p>
+                        <h5 class="card-title text-center text-info">@localizer["HeaderBillingCard02"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard02"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-primary">Anticipos de Pago</h5>
-                        <p class="card-text text-muted">Entrega los recibos de Anticipos y relacionalos a la factura que se genere de estos conceptos.</p>
+                        <h5 class="card-title text-center text-primary">@localizer["HeaderBillingCard03"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard03"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-info">Factura Global</h5>
-                        <p class="card-text text-muted">Genera tu Factura Global muy rápido y de forma segura. </p>
+                        <h5 class="card-title text-center text-info">@localizer["HeaderBillingCard04"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard04"]</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-primary">Carta Porte</h5>
-                        <p class="card-text text-muted">Genera estos documentos, para el traslado de tus mercancías, 
-                            se puede conectar al istema de Almacén, para facilitar el timbrado.</p>
+                        <h5 class="card-title text-center text-primary">@localizer["HeaderBillingCard05"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard05"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-info">Modelos de Facturación</h5>
-                        <p class="card-text text-muted">Implementa solo las claves de productos y unidades de medida que necesitas del SAT, 
-                            para que no tnega que navegar por todas ellas, cuando no las necesitas.</p>
+                        <h5 class="card-title text-center text-info">@localizer["HeaderBillingCard06"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard06"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-primary">Cancelación de Facturas</h5>
-                        <p class="card-text text-muted">Realiza la cancelación y relación de la factura cancelada con la que sustituye.</p>
+                        <h5 class="card-title text-center text-primary">@localizer["HeaderBillingCard07"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard07"]</p>
                     </div>
                 </div>
                 <div class="card m-2 shadow">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-info">Estatus de las Facturas</h5>
-                        <p class="card-text text-muted">Revisa el Estatus de tus facturas ante el SAT.</p>
+                        <h5 class="card-title text-center text-info">@localizer["HeaderBillingCard08"]</h5>
+                        <p class="card-text text-muted">@localizer["txtBillingCard08"]</p>
                     </div>
                 </div>
             </div>
@@ -81,35 +77,35 @@
 </div>
 <div class="bg-light padding60">
     <div class="container">
-        <h3 class="display-6 text-center fw-bold mb-5">Factura Electrónica en Línea</h3>
+        <h3 class="display-6 text-center fw-bold mb-5">@localizer["Header30"]</h3>
         <div class="row">
             <div class="col-md-8 mb-5">
-                <p class="lead text-center">Con Facturación en Línea, liberas a tus cajeros del tiempo invertido en estos procesos.</p>
-                <p class="lead text-center">Disponibilidad 24/7 para elaborar tu factura, tu decides la configuración para facturar.</p>
+                <p class="lead text-center">@localizer["txtOnlineBilling01"]</p>
+                <p class="lead text-center">@localizer["txtOnlineBilling01"]</p>
                 <ul class="list-group list-group-flush mt-5">
                     <li class="list-group-item text-muted opacity-75">
-                        Impresión de un Código QR en el Ticket de Venta
+                        @localizer["attrOnlineBilling01"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Folio de facturación, para ingresar manualmente el código
+                        @localizer["attrOnlineBilling02"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Envio de la Factura (PDF y XML) al Cliente y al correo indicado en el programa
+                        @localizer["attrOnlineBilling03"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Notificación al cliente en caso que no pueda elaborar su factura y un correo y telefono de contacto para seguimiento.
+                        @localizer["attrOnlineBilling04"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Configuración de los tiempos disponibles para facturar.
+                        @localizer["attrOnlineBilling05"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Posibilidad de facturar en la versión 3.3 (válida hasta el 31 de Dic de 2022) y 4.0 del SAT
+                        @localizer["attrOnlineBilling06"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Reenvio de la factura desde el portal de Facturación
+                        @localizer["attrOnlineBilling07"]
                     </li>
                     <li class="list-group-item text-muted opacity-75">
-                        Sin costo extra u oculto, este servicio esta incluido desde el plan de la Póliza Estándar
+                        @localizer["attrOnlineBilling08"]
                     </li>
                 </ul>
             </div>

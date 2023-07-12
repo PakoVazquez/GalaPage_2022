@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @model GalaPage_2022.Pages.Contact.DescargaGratisModel
 @{
 }
@@ -6,52 +7,53 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <h3 class="main-title mt-5 text-center">Amigo Restaurante</h3>
-                <h3 class="main-subtitle">por Gala Sistemas</h3>
-                <p class="mt-5">Comienza a usar Amigo Restaurante, te acompañamos en la instalación y 
-                    puesta a punto del sistema, con capacitación y soporte para que conozcas cada aspecto del sistema y 
-                    como te puede ayudar en la gestión de tu negocio.
-                </p>
-                <p>También te configuramos la Facturación en Línea, si así lo quieres, para que descubras lo fácil que es 
-                    llevar la facturación en tu negocio.
-                </p>
+                <h3 class="main-title mt-5 text-center">@localizer["Header10"]</h3>
+                <h3 class="main-subtitle">@localizer["Header11"]</h3>
+                <p class="mt-5">@localizer["txtForm01"]</p>
+                <p>@localizer["txtForm02"]</p>
                 <div class="text-center m-5">
                     <a class="btn btn-lg btn-success shadow" href="https://api.whatsapp.com/send?phone=5216632073451" target="_blank">
                         <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
-                        <span class="mx-3">Contáctanos</span>
+                        <span class="mx-3">@localizer["btnWhatsAppContact"]</span>
                     </a>
                 </div>
             </div>
             <div class="col-md-7">
-                <h3 class="m-5 text-center">Prueba Amigo Restaurante</h3>
+                <h3 class="m-5 text-center">@localizer["Header12"]</h3>
                 <form class="form-floating text-black" method="post">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" asp-for="Contacto.Nombre" id="nombreCliente" placeholder="Nombre" required>
-                        <label class="text-muted" for="nombreCliente">Nombre Completo</label>
+                        <label class="text-muted" for="nombreCliente">@localizer["lblFormName"]</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" asp-for="Contacto.Correo" id="correoCliente" placeholder="name@example.com" required>
-                        <label class="text-muted" for="correoCliente">Dirección de Correo Electrónico</label>
+                        <label class="text-muted" for="correoCliente">@localizer["lblFormEmail"]</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="tel" class="form-control" asp-for="Contacto.Telefono" id="telefonoCliente" placeholder="Teléfono" required>
-                        <label class="text-muted" for="telefonoCliente">Teléfono de Contacto</label>
+                        <label class="text-muted" for="telefonoCliente">@localizer["lblFormPhone"]</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" asp-for="Contacto.NombreDelNegocio" id="nombreDelNegocio" placeholder="Nombre del Negocio">
-                        <label class="text-muted" for="nombreDelNegocio">Nombre del Negocio</label>
+                        <label class="text-muted" for="nombreDelNegocio">@localizer["lblFormCompany"]</label>
                     </div>
                     <div class="d-grid">
-                        <button class="btn btn-primary btn-lg btn-block" type="submit" >Continuar</button>
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">@localizer["btnSendContinue"]</button>
                     </div>
                     <p class="lead fs-6 text-muted mt-3">
-                        Al dar clic en Continuar, aceptarás las condiciones del <a href="#">acuerdo de usuario</a> y
-                        nos darás permiso para procesar tus <a href="#">datos personales</a>
+                        @localizer["txtAcceptConditions01"]
+                        <a href="#">@localizer["txtAcceptConditionsLink01"]</a> 
+                        @localizer["txtAcceptConditions02"]
+                        <a href="#">@localizer["txtAcceptConditionsLink02"]</a>
                     </p>
                 </form>
-                <p>El tiempo estimado de la instalación es de una a dos horas, dependiendo de la conexión a internet.</p>
-                <p>Importante contar con el programa <a href="https://download.teamviewer.com/full?src=cookie-banner">TeamViewer</a> instalado, para por dar soporte y capacitación. 
-                    <a href="https://download.teamviewer.com/full?src=cookie-banner">Descargar Team Viewer</a> </p>
+                <p>@localizer["txtNoteFooter01"]</p>
+                <p>
+                    @localizer["txtNoteFooter02"]
+                    <a href="https://download.teamviewer.com/full?src=cookie-banner">@localizer["linkTeamViewer"]</a>
+                    @localizer["txtNoteFooter03"]
+                    <a href="https://download.teamviewer.com/full?src=cookie-banner">@localizer["linkDownloadTeamViewer"]</a>
+                </p>
             </div>
         </div>
     </div>

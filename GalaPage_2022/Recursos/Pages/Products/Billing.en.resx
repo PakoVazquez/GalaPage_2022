@@ -117,73 +117,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnBuyHere" xml:space="preserve">
-    <value>Compra Aquí</value>
+  <data name="attrOnlineBilling01" xml:space="preserve">
+    <value>Printing a QR Code on the Sales Receipt</value>
   </data>
-  <data name="btnKnowMore" xml:space="preserve">
-    <value>Saber Más</value>
+  <data name="attrOnlineBilling02" xml:space="preserve">
+    <value>Billing folio, to manually enter the code</value>
   </data>
-  <data name="btnPrices" xml:space="preserve">
-    <value>Precios</value>
+  <data name="attrOnlineBilling03" xml:space="preserve">
+    <value>Sending the Invoice (PDF and XML) to the Client and to the email indicated in the program</value>
   </data>
-  <data name="btnRequestADemo" xml:space="preserve">
-    <value>Solicitar una Demostración</value>
+  <data name="attrOnlineBilling04" xml:space="preserve">
+    <value>Notification to the client in the event that he cannot prepare his invoice and a contact email and telephone number for follow-up.</value>
   </data>
-  <data name="btnWhatsApp" xml:space="preserve">
-    <value>WhatsApp</value>
+  <data name="attrOnlineBilling05" xml:space="preserve">
+    <value>Configuration of the times available for billing.</value>
   </data>
-  <data name="CompletedPOS" xml:space="preserve">
-    <value>Sistema de Administración Completo</value>
+  <data name="attrOnlineBilling06" xml:space="preserve">
+    <value>Possibility of invoicing in version 3.3 (valid until Dec 31, 2022) and 4.0 of the SAT</value>
   </data>
-  <data name="DevelopedBy" xml:space="preserve">
-    <value>por Gala Sistemas S.A. de C.V.</value>
+  <data name="attrOnlineBilling07" xml:space="preserve">
+    <value>Forwarding the invoice from the Billing portal</value>
   </data>
-  <data name="ECommerceAttr1" xml:space="preserve">
-    <value>Funciona como una aplicación</value>
-  </data>
-  <data name="ECommerceAttr2" xml:space="preserve">
-    <value>Publica solo los platillos que desees</value>
-  </data>
-  <data name="ECommerceAttr3" xml:space="preserve">
-    <value>Activa el Modo Servicio a Domicilio, si cuentas con el</value>
-  </data>
-  <data name="ECommerceAttr4" xml:space="preserve">
-    <value>Recibe tu ingreso sin intermediarios</value>
-  </data>
-  <data name="ECommerceAttr5" xml:space="preserve">
-    <value>Deja de pagar altas comisiones</value>
-  </data>
-  <data name="FirstTextMercadoPago" xml:space="preserve">
-    <value>Ahora puedes aceptar pagos con tarjetas de crédito y débito a través de la plataforma</value>
+  <data name="attrOnlineBilling08" xml:space="preserve">
+    <value>Without extra or hidden cost, this service is included from the Standard Policy plan</value>
   </data>
   <data name="Header10" xml:space="preserve">
-    <value>Integra Mercado Pago a tu sistema Amigo Restaurante</value>
+    <value>Electronic bill</value>
+  </data>
+  <data name="Header20" xml:space="preserve">
+    <value>Electronic bill</value>
   </data>
   <data name="Header30" xml:space="preserve">
-    <value>Software diseñado para resolver problemas reales de la industria restaurantera.</value>
+    <value>Online Electronic Invoice</value>
   </data>
-  <data name="Header40" xml:space="preserve">
-    <value>e-Commerce de tu Restaurante, ligado con Amigo Restaurante</value>
+  <data name="HeaderBillingCard01" xml:space="preserve">
+    <value>Payment receipts</value>
   </data>
-  <data name="Header41" xml:space="preserve">
-    <value>Tu Restaurante en Línea.</value>
+  <data name="HeaderBillingCard02" xml:space="preserve">
+    <value>Credit notes</value>
   </data>
-  <data name="SecondTextMercadoPago" xml:space="preserve">
-    <value>gracias a la integración de este medio de pago en nuestra comandera.</value>
+  <data name="HeaderBillingCard03" xml:space="preserve">
+    <value>Payment advances</value>
   </data>
-  <data name="TextCardInvoice" xml:space="preserve">
-    <value>Genera tus facturas de forma rápida y sencilla, integra la facturación en línea para un mejor servicio a tus clientes. Genera la factura global con pocos clics.Con la facturación en línea puedes tener la opción de la factura 3.3 y 4.0 del SAT.</value>
+  <data name="HeaderBillingCard04" xml:space="preserve">
+    <value>Global Invoice</value>
   </data>
-  <data name="TextCardRestaurant" xml:space="preserve">
-    <value>Sistema de Administración de Restaurantes, incluye Inventarios, Pronósticos, Cuentas Por Cobrar, Compras, Costos, Reportes, Notas de Crédito, Producción, El sistema en La Nube para una mejor administración. Cancelación de tickets exclusiva a para la administración.</value>
+  <data name="HeaderBillingCard05" xml:space="preserve">
+    <value>Bill of Lading</value>
   </data>
-  <data name="TextCardWarehouse" xml:space="preserve">
-    <value>Gestiona tu Almacén con la Producción Interna, Control de Inventarios, Costeo de tus Materias Primas, Control de Rutas, Pedidos en Línea, Pronósticos de Compras y de Ventas.</value>
+  <data name="HeaderBillingCard06" xml:space="preserve">
+    <value>Billing Models</value>
   </data>
-  <data name="TextCompletedPOS" xml:space="preserve">
-    <value>No solo es un sistema de Punto de Venta (POS), contiene mucho más que eso, te invitamos a descubrirlo.</value>
+  <data name="HeaderBillingCard07" xml:space="preserve">
+    <value>Cancellation of Invoices</value>
   </data>
-  <data name="txtInfo" xml:space="preserve">
-    <value>Información</value>
+  <data name="HeaderBillingCard08" xml:space="preserve">
+    <value>Invoice Status</value>
+  </data>
+  <data name="txtBilling01" xml:space="preserve">
+    <value>All Gala Sistemas systems include the Electronic Invoicing module, so that you can generate invoices for your customers and your global sales invoices with just a few clicks.</value>
+  </data>
+  <data name="txtBilling02" xml:space="preserve">
+    <value>Gala Sistemas has the Online Billing Platform for your business, saving operating time in your business, allowing your customers to invoice from their phone and/or computer.</value>
+  </data>
+  <data name="txtBillingCard01" xml:space="preserve">
+    <value>Generate payment receipts on the invoices that you have generated as Payment in Installments</value>
+  </data>
+  <data name="txtBillingCard02" xml:space="preserve">
+    <value>Create the credit note on your invoice, with a few clicks.</value>
+  </data>
+  <data name="txtBillingCard03" xml:space="preserve">
+    <value>Deliver the advance receipts and relate them to the invoice generated from these concepts.</value>
+  </data>
+  <data name="txtBillingCard04" xml:space="preserve">
+    <value>Generate your Global Invoice very quickly and safely.</value>
+  </data>
+  <data name="txtBillingCard05" xml:space="preserve">
+    <value>Generate these documents, for the transfer of your merchandise, it can be connected to the Warehouse system, to facilitate the stamping.</value>
+  </data>
+  <data name="txtBillingCard06" xml:space="preserve">
+    <value>Implement only the product keys and units of measure that you need from the SAT, so you don't have to navigate through all of them, when you don't need them.</value>
+  </data>
+  <data name="txtBillingCard07" xml:space="preserve">
+    <value>Make the cancellation and list the canceled invoice with the one it replaces.</value>
+  </data>
+  <data name="txtBillingCard08" xml:space="preserve">
+    <value>Check the Status of your invoices before the SAT.</value>
+  </data>
+  <data name="txtOnlineBilling01" xml:space="preserve">
+    <value>With Online Billing, you free your cashiers from the time invested in these processes.</value>
+  </data>
+  <data name="txtOnlineBilling02" xml:space="preserve">
+    <value>24/7 availability to prepare your invoice, you decide the configuration to invoice.</value>
   </data>
 </root>
